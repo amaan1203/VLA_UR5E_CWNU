@@ -31,13 +31,12 @@ class Logger(object):
     def write(self, message):
         self.terminal.write(message)
         self.log.write(message)
-        self.log.flush() # Ensure it writes in real-time
+        self.log.flush() 
 
     def flush(self):
-        # This flush method is needed for python 3 compatibility.
         pass
 
-# Redirect stdout to our new Logger class
+
 sys.stdout = Logger(log_filename)
 
 print(f"Logging session started. Saving to: {log_filename}")
@@ -51,7 +50,6 @@ class VLASample:
 
 
 def get_front_camera_feed(width=640, height=480):
-    # Standard top-down or angled view for UR5
     view_matrix = p.computeViewMatrixFromYawPitchRoll(
         cameraTargetPosition=[0.5, 0.0, 0.5],
         distance=1.0,
@@ -64,37 +62,33 @@ def get_front_camera_feed(width=640, height=480):
         fov=60, aspect=float(width)/height, nearVal=0.1, farVal=100.0
     )
     
-    # Capture image
     (_, _, rgb, _, _) = p.getCameraImage(
         width, height, view_matrix, proj_matrix, renderer=p.ER_BULLET_HARDWARE_OPENGL
     )
     
-    # Convert to numpy array (HWC) and remove alpha channel
+    # converting to numpy array
     rgb_array = np.reshape(rgb, (height, width, 4))[:, :, :3]
     return rgb_array.astype(np.uint8)
 
 def get_gripper_camera_feed(robot_id, width=320, height=240):
-    # Index 7 is your 'ee_link'
+    # index 7 is the 'ee_link' in the ur5e arm
     EE_LINK_INDEX = 7
     
-    # 1. Get the current world position and orientation of the ee_link
+   
     state = p.getLinkState(robot_id, EE_LINK_INDEX, computeForwardKinematics=True)
-    pos = state[4]  # World position
-    orn = state[5]  # World orientation (quaternion)
+    pos = state[4]  
+    orn = state[5] 
     
-    # 2. Convert orientation to a rotation matrix to find "Forward" and "Up"
+    # converting orientation to a rotation matrix to find "Forward" and "Up"
     rot_matrix = p.getMatrixFromQuaternion(orn)
     rot_matrix = np.array(rot_matrix).reshape(3, 3)
     
-    # 3. Define camera placement
-    # We want the camera slightly back from the tip and looking forward
-    forward_vec = rot_matrix.dot(np.array([1, 0, 0])) # X-axis of the link
-    up_vec = rot_matrix.dot(np.array([0, 0, 1]))      # Z-axis of the link
+
+    forward_vec = rot_matrix.dot(np.array([1, 0, 0])) 
+    up_vec = rot_matrix.dot(np.array([0, 0, 1]))      
     
-    # Move camera 5cm behind the link and 5cm above it to see the fingers
     cam_pos = np.array(pos) - (forward_vec * 0.05) + (up_vec * 0.05)
     
-    # Look at a point 20cm in front of the link
     target_pos = np.array(pos) + (forward_vec * 0.2)
     
     view_matrix = p.computeViewMatrix(
@@ -111,15 +105,13 @@ def get_gripper_camera_feed(robot_id, width=320, height=240):
     return np.reshape(rgb, (height, width, 4))[:, :, :3].astype(np.uint8)
 
 def get_side_camera_feed(width=640, height=480):
-    """Provides a side profile view of the workspace."""
-    # Target the middle of the workspace
     camera_target = [0.5, 0.2, 0.6] 
     
     view_matrix = p.computeViewMatrixFromYawPitchRoll(
         cameraTargetPosition=camera_target,
         distance=1.2,
-        yaw=0,             # 0 degrees for side view
-        pitch=-20,         # Slight downward angle
+        yaw=0,            
+        pitch=-20,         
         roll=0,
         upAxisIndex=2
     )
@@ -141,19 +133,17 @@ def map_vla_to_ur5_absolute(vla_action, current_obs, scale=0.02):
     vla_action: [dx, dy, dz, dr, dp, dy, g] from smolVLA
     current_obs: [ee_x, ee_y, ...] assuming first two are current X, Y
     """
-    # 1. Get current EE position (ensure these indices match your obs)
+ 
     current_x = current_obs[0]
     current_y = current_obs[1]
     
-    # 2. Extract deltas from VLA
     dx = vla_action[0]
     dy = vla_action[1]
     
-    # 3. Calculate new absolute target
+
     target_x = current_x + (dx * scale)
     target_y = current_y + (dy * scale)
     
-    # 4. Clip to the environment's Box limits
     target_x = np.clip(target_x, 0.3, 0.7)
     target_y = np.clip(target_y, -0.3, 0.3)
     
@@ -163,13 +153,12 @@ def map_vla_to_ur5_absolute(vla_action, current_obs, scale=0.02):
 
 def verify_camera():
     env = UR5RobotiqEnv()
-    print(f"Action Space: {env.action_space}")
-    print(f"High values: {env.action_space.high}")
-    print(f"Low values: {env.action_space.low}")
+    # print(f"Action Space: {env.action_space}")
+    # print(f"High values: {env.action_space.high}")
+    # print(f"Low values: {env.action_space.low}")
     env.reset()
     robot_id = env.robot.id 
     
-    # Capture Table View
     table_rgb = get_side_camera_feed()
     cv2.imwrite("side_camera.png", cv2.cvtColor(table_rgb, cv2.COLOR_RGB2BGR))
     
@@ -181,22 +170,19 @@ def verify_camera():
     env.close()
     
 def get_fused_vla_input(robot_id):
-    # 1. Capture all three feeds
+
     front = get_front_camera_feed(width=320, height=240)
     side = get_side_camera_feed(width=320, height=240)
     gripper = get_gripper_camera_feed(robot_id, width=640, height=240) # Wider to match top row
     
-    # 2. Stack top row (Front | Side) -> 640x240
     top_row = np.hstack((front, side))
     
-    # 3. Stack vertically (Top Row / Gripper) -> 640x480
     fused_img = np.vstack((top_row, gripper))
     
     return fused_img
 
-# --- ROBOT STATE PROJECTOR ---
+
 def preprocess_state(env, obs):
-    """Projects robot state into a fixed 32-dim latent vector."""
     joint_indices = [1, 2, 3, 4, 5, 6] 
     joint_states = p.getJointStates(env.robot.id, joint_indices)
     joint_positions = [state[0] for state in joint_states]
@@ -220,24 +206,19 @@ class VLAPID:
         self.device = device
         self.policy = SmolVLAPolicy.from_pretrained(model_id).to(device)
         self.policy.eval()
-        instruction = "Pick up the green block, then move to the target location."
+        instruction = "Pick up the green block, then drop to the target location."
         tokens = self.policy.model.vlm_with_expert.processor.tokenizer(instruction, return_tensors="pt").to(device)
         self.lang_tokens, self.lang_mask = tokens["input_ids"], tokens["attention_mask"].bool()
 
     @torch.inference_mode()
     def residual(self, fused_image, state):
-        """
-        fused_image: The single stacked HWC image
-        state: (32,) float32
-        """
         state_t = torch.from_numpy(state).float().unsqueeze(0).to(self.device)
         
-        # Prepare the single fused image as camera1
         img_t = torch.from_numpy(fused_image).permute(2, 0, 1).unsqueeze(0).float().to(self.device) / 255.0
 
         obs_vla = {
             "observation.state": state_t,
-            "observation.images.camera1": img_t, # The model sees all views here
+            "observation.images.camera1": img_t, 
             "observation.language.tokens": self.lang_tokens,
             "observation.language.attention_mask": self.lang_mask,
         }
@@ -299,7 +280,7 @@ def test_algo():
     device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
     vla_model = VLAPID("lerobot/smolvla_base", device)
     async_vla = AsyncVLA(vla_model)
-    model = SAC.load(f"./models/ur_robot_sac_7000_steps", env=env)
+    model = SAC.load(f"ur_robot_sac_7000_steps", env=env)
 
     obs, info = env.reset()
     robot_id, step_count = env.robot.id, 0
@@ -308,7 +289,8 @@ def test_algo():
     try:
         while True:
             step_count += 1
-            if step_count % 2 == 0: # Sync snapshot every 2 steps
+            # sync snapshot every 2 steps
+            if step_count % 2 == 0: 
                 t_capture = time.perf_counter()
                 fused_visual = get_fused_vla_input(robot_id)
                 if step_count % 2 == 0:

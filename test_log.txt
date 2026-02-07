@@ -2433,3 +2433,59 @@ Distance difference: 0.13098517548707472
 Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0035477044729846003
   [ASYNC] Inference: 292.9ms
 AsyncVLA stopped
+Logging session started. Saving to: test_log.txt
+Loading  HuggingFaceTB/SmolVLM2-500M-Video-Instruct weights ...
+Reducing the number of VLM layers to 16 ...
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Distance difference: 0.01001133619726227
+
+[VERIFICATION] State Projector Initialized
+ -> Raw State (6 joints + 1 gripper): (7,)
+ -> Padded Vector Shape: (32,)
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.003727399250087749
+Link 5, joint 12 force: 3.06
+Link 5, joint 12 force: 4.81
+Link 5, joint 12 force: 6.47
+Link 5, joint 12 force: 0.20
+Link 5, joint 12 force: 4.28
+[Grasped] Link 5: joint 17 = 7.35, joint 12 = 11.03
+Grasp successful!
+  [ASYNC] Inference: 21112.7ms
+Distance difference: 0.003727399250087749
+[Step 3] Latent Norm: 3.6236 | Action Age: 49109.4ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007427651598274436
+Link 5, joint 12 force: 1.65
+Link 5, joint 12 force: 3.83
+Link 5, joint 12 force: 5.35
+Link 5, joint 12 force: 4.00
+Link 5, joint 12 force: 7.10
+Link 5, joint 12 force: 10.48
+[Grasped] Link 5: joint 17 = 7.56, joint 12 = 9.32
+Grasp successful!
+Distance difference: 0.007427651598274436
+Distance difference: 0.05690152634564718
+Distance difference: 0.0570253271519787
+  [ASYNC] Inference: 1525.9ms
+Distance difference: 0.05703005634643893
+[Step 7] Latent Norm: 3.1056 | Action Age: 2497.9ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007393009294422093
+  [ASYNC] Inference: 425.8ms
+Link 5, joint 12 force: 2.24
+Link 5, joint 12 force: 2.88
+Link 5, joint 17 force: 0.07
+Link 5, joint 17 force: 10.50
+[Grasped] Link 5: joint 17 = 13.38, joint 12 = 10.43
+Grasp successful!
+Distance difference: 0.007393009294422093
+[Step 8] Latent Norm: 3.3036 | Action Age: 54518.3ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0074318049085059235
+  [ASYNC] Inference: 645.6ms
+Link 5, joint 17 force: 0.06
+Link 5, joint 12 force: 1.44
+[Grasped] Link 5: joint 17 = 7.09, joint 12 = 9.25
+Grasp successful!
+Distance difference: 0.0074318049085059235
+[Step 9] Latent Norm: 3.1056 | Action Age: 51975.3ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007127804759661703
+AsyncVLA stopped
