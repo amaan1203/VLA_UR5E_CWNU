@@ -1,0 +1,2435 @@
+
+Logging session started. Saving to: test_log.txt
+Loading  HuggingFaceTB/SmolVLM2-500M-Video-Instruct weights ...
+Reducing the number of VLM layers to 16 ...
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Distance difference: 0.01001133619726227
+
+[VERIFICATION] State Projector Initialized
+ -> Raw State (6 joints + 1 gripper): (7,)
+ -> Padded Vector Shape: (32,)
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.003727399250087749
+Link 5, joint 12 force: 3.06
+Link 5, joint 12 force: 4.81
+Link 5, joint 12 force: 6.47
+Link 5, joint 12 force: 0.20
+Link 5, joint 12 force: 4.28
+[Grasped] Link 5: joint 17 = 7.35, joint 12 = 11.03
+Grasp successful!
+  [ASYNC] Inference: 17990.6ms
+Distance difference: 0.003727399250087749
+[Step 3] Latent Norm: 3.6236 | Action Age: 38883.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.00067177913048177
+Link 5, joint 12 force: 3.48
+Link 5, joint 12 force: 0.41
+[Grasped] Link 5: joint 17 = 5.28, joint 12 = 7.01
+Grasp successful!
+Distance difference: 0.00067177913048177
+Distance difference: 0.05441776422687745
+Distance difference: 0.054150176238032956
+  [ASYNC] Inference: 1388.1msDistance difference: 0.05415672710757323
+
+[Step 7] Latent Norm: 3.1056 | Action Age: 2113.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.004138667590386745
+  [ASYNC] Inference: 291.4ms
+Link 5, joint 17 force: 0.07
+Link 5, joint 17 force: 1.01
+Link 5, joint 17 force: 1.18
+Link 5, joint 17 force: 0.12
+Link 5, joint 17 force: 0.09
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.09
+[Grasped] Link 5: joint 17 = 10.52, joint 12 = 6.07
+Grasp successful!
+Distance difference: 0.004138667590386745
+[Step 8] Latent Norm: 3.2135 | Action Age: 40957.4ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.00786813527267776
+  [ASYNC] Inference: 869.2ms
+Link 5, joint 12 force: 3.29
+Link 5, joint 12 force: 4.53
+Link 5, joint 17 force: 2.09
+Link 5, joint 12 force: 12.29
+[Grasped] Link 5: joint 17 = 6.90, joint 12 = 23.81
+Grasp successful!
+Distance difference: 0.00786813527267776
+[Step 9] Latent Norm: 3.1056 | Action Age: 39900.2ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0071385850660715235
+Link 5, joint 12 force: 0.69
+Link 5, joint 12 force: 3.57
+Link 5, joint 12 force: 5.22
+Link 5, joint 12 force: 5.36
+Link 5, joint 12 force: 7.47
+Link 5, joint 17 force: 0.19
+Link 5, joint 12 force: 13.44
+Link 5, joint 17 force: 0.18
+Link 5, joint 12 force: 11.81
+Link 5, joint 12 force: 6.35
+Link 5, joint 17 force: 0.19
+Link 5, joint 12 force: 2.93
+Link 5, joint 17 force: 0.20
+Link 5, joint 12 force: 3.00
+Link 5, joint 12 force: 4.85
+Link 5, joint 17 force: 0.20
+Link 5, joint 12 force: 9.69
+[Grasped] Link 5: joint 17 = 4.65, joint 12 = 18.16
+Grasp successful!
+Distance difference: 0.0071385850660715235
+Distance difference: 0.05573669854169451
+Distance difference: 0.060124361172146305
+  [ASYNC] Inference: 1180.0ms
+[Step 12] Latent Norm: 3.1056 | Action Age: 1903.1ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0057028747643971195
+  [ASYNC] Inference: 296.1ms
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.59
+[Grasped] Link 5: joint 17 = 4.34, joint 12 = 5.09
+Grasp successful!
+Distance difference: 0.0057028747643971195
+[Step 13] Latent Norm: 3.7598 | Action Age: 40716.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0036902404749016436
+Link 5, joint 17 force: 0.18
+Link 5, joint 17 force: 1.87
+Link 5, joint 17 force: 1.94
+Link 5, joint 17 force: 0.36
+Link 5, joint 17 force: 0.10
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.01
+Link 5, joint 12 force: 1.11
+[Grasped] Link 5: joint 17 = 9.93, joint 12 = 5.84
+Grasp successful!
+Distance difference: 0.0036902404749016436
+Distance difference: 0.08729086861342478
+Distance difference: 0.08367628378658484
+  [ASYNC] Inference: 1526.8ms
+Distance difference: 0.08343909344895925
+[Step 17] Latent Norm: 3.1056 | Action Age: 2326.7ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0013978084430238354
+  [ASYNC] Inference: 356.6ms
+Link 5, joint 12 force: 2.59
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 6.85
+[Grasped] Link 5: joint 17 = 4.86, joint 12 = 18.19
+Grasp successful!
+Distance difference: 0.0013978084430238354
+[Step 18] Latent Norm: 3.5619 | Action Age: 40067.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.004115438959871066
+  [ASYNC] Inference: 660.3ms
+Link 5, joint 17 force: 0.18
+Link 5, joint 17 force: 1.72
+Link 5, joint 17 force: 1.62
+Link 5, joint 17 force: 0.12
+Link 5, joint 17 force: 0.06
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.05
+[Grasped] Link 5: joint 17 = 7.87, joint 12 = 9.33
+Grasp successful!
+Distance difference: 0.004115438959871066
+[Step 19] Latent Norm: 3.1056 | Action Age: 38448.5ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0069032145508144075
+Grasp failed.
+Distance difference: 0.0069032145508144075
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.006903191265121116
+  [ASYNC] Inference: 1045.5ms
+Link 5, joint 12 force: 2.26
+Link 5, joint 12 force: 4.21
+Link 5, joint 12 force: 5.81
+Link 5, joint 12 force: 3.82
+Link 5, joint 12 force: 3.22
+Link 5, joint 12 force: 3.10
+Link 5, joint 12 force: 15.43
+Link 5, joint 12 force: 10.11
+Link 5, joint 17 force: 0.23
+Link 5, joint 12 force: 3.15
+Link 5, joint 17 force: 0.21
+Link 5, joint 12 force: 2.99
+Link 5, joint 12 force: 4.69
+Link 5, joint 17 force: 0.24
+Link 5, joint 12 force: 3.94
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 13.22
+Link 5, joint 12 force: 13.78
+Link 5, joint 12 force: 9.46
+Link 5, joint 12 force: 3.02
+Link 5, joint 17 force: 0.09
+Link 5, joint 12 force: 15.11
+Link 5, joint 12 force: 13.70
+Link 5, joint 12 force: 8.65
+Link 5, joint 12 force: 7.39
+Link 5, joint 17 force: 0.34
+Link 5, joint 12 force: 10.93
+[Grasped] Link 5: joint 17 = 11.94, joint 12 = 24.77
+Grasp successful!
+Distance difference: 0.006903191265121116
+[Step 21] Latent Norm: 3.1056 | Action Age: 42613.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.002346525310172185
+Link 5, joint 12 force: 2.02
+Link 5, joint 12 force: 3.03
+Link 5, joint 12 force: 0.09
+Link 5, joint 17 force: 0.75
+Link 5, joint 12 force: 0.92
+[Grasped] Link 5: joint 17 = 6.61, joint 12 = 14.07
+Grasp successful!
+Distance difference: 0.002346525310172185
+Distance difference: 0.13865495809564243
+Distance difference: 0.13261712303073458
+  [ASYNC] Inference: 1326.9ms
+[Step 24] Latent Norm: 3.1056 | Action Age: 2522.2ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.005811795185703197
+  [ASYNC] Inference: 364.4ms
+Link 5, joint 12 force: 2.79
+Link 5, joint 12 force: 4.86
+Link 5, joint 12 force: 6.70
+Link 5, joint 12 force: 4.61
+Link 5, joint 12 force: 7.63
+Link 5, joint 12 force: 11.06
+Link 5, joint 12 force: 6.80
+Link 5, joint 12 force: 10.42
+[Grasped] Link 5: joint 17 = 14.88, joint 12 = 16.03
+Grasp successful!
+Distance difference: 0.005811795185703197
+[Step 25] Latent Norm: 3.6077 | Action Age: 40310.2ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.007345896734639901
+Link 5, joint 12 force: 2.81
+Link 5, joint 12 force: 4.48
+Link 5, joint 12 force: 6.32
+[Grasped] Link 5: joint 17 = 3.28, joint 12 = 15.16
+Grasp successful!
+Distance difference: 0.007345896734639901
+Distance difference: 0.05761581913160092
+Distance difference: 0.061971311578251774
+  [ASYNC] Inference: 1670.1ms
+[Step 28] Latent Norm: 3.1056 | Action Age: 2571.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.007419708276744772
+  [ASYNC] Inference: 330.2ms
+Link 5, joint 12 force: 2.33
+Link 5, joint 12 force: 4.02
+Link 5, joint 12 force: 1.28
+[Grasped] Link 5: joint 17 = 3.61, joint 12 = 6.42
+Grasp successful!
+Distance difference: 0.007419708276744772
+[Step 29] Latent Norm: 3.3290 | Action Age: 44992.8ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.007953151189012377
+Link 5, joint 12 force: 4.62
+Link 5, joint 12 force: 6.96
+Link 5, joint 12 force: 8.03
+Link 5, joint 12 force: 0.35
+[Grasped] Link 5: joint 17 = 6.44, joint 12 = 9.19
+Grasp successful!
+Distance difference: 0.007953151189012377
+Distance difference: 0.057770347915461887
+Distance difference: 0.06209133496688893
+  [ASYNC] Inference: 1126.8ms
+[Step 32] Latent Norm: 3.1056 | Action Age: 2318.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.007912436110793973
+  [ASYNC] Inference: 325.9ms
+Link 5, joint 12 force: 2.08
+Link 5, joint 12 force: 3.60
+Link 5, joint 12 force: 0.16
+Link 5, joint 12 force: 0.27
+Link 5, joint 17 force: 0.13
+Link 5, joint 12 force: 1.85
+[Grasped] Link 5: joint 17 = 5.87, joint 12 = 12.79
+Grasp successful!
+Distance difference: 0.007912436110793973
+[Step 33] Latent Norm: 3.3287 | Action Age: 43751.0ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008144573312707187
+Link 5, joint 12 force: 2.22
+Link 5, joint 12 force: 4.10
+Link 5, joint 12 force: 6.03
+Link 5, joint 12 force: 1.82
+Link 5, joint 17 force: 0.06
+Link 5, joint 12 force: 2.61
+[Grasped] Link 5: joint 17 = 4.98, joint 12 = 12.69
+Grasp successful!
+Distance difference: 0.008144573312707187
+Distance difference: 0.05808236621432607
+Distance difference: 0.062396861800986934
+  [ASYNC] Inference: 1696.6ms
+Distance difference: 0.06288719628112378
+[Step 37] Latent Norm: 3.1056 | Action Age: 2465.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.007922575537744241
+  [ASYNC] Inference: 322.6ms
+Link 5, joint 12 force: 1.27
+Link 5, joint 12 force: 3.00
+Link 5, joint 12 force: 0.78
+Link 5, joint 12 force: 2.96
+Link 5, joint 17 force: 0.10
+Link 5, joint 12 force: 1.19
+[Grasped] Link 5: joint 17 = 4.53, joint 12 = 12.42
+Grasp successful!
+Distance difference: 0.007922575537744241
+[Step 38] Latent Norm: 3.3291 | Action Age: 44069.9ms
+Distance difference: 0.012614376720685654
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0023188590612794125
+  [ASYNC] Inference: 966.2ms
+Link 5, joint 12 force: 2.32
+[Grasped] Link 5: joint 17 = 4.48, joint 12 = 7.00
+Grasp successful!
+Distance difference: 0.0023188590612794125
+[Step 40] Latent Norm: 3.1056 | Action Age: 44615.8ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0067691791034046505
+  [ASYNC] Inference: 1040.1ms
+Link 5, joint 12 force: 2.33
+Link 5, joint 12 force: 4.29
+Link 5, joint 12 force: 5.92
+Link 5, joint 12 force: 3.95
+Link 5, joint 17 force: 0.12
+Link 5, joint 12 force: 6.36
+[Grasped] Link 5: joint 17 = 5.47, joint 12 = 12.69
+Grasp successful!
+Distance difference: 0.0067691791034046505
+[Step 41] Latent Norm: 3.1056 | Action Age: 39809.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.003818272629385351
+Link 5, joint 12 force: 2.50
+Link 5, joint 12 force: 3.47
+Link 5, joint 12 force: 0.41
+Link 5, joint 12 force: 2.44
+Link 5, joint 12 force: 4.85
+Link 5, joint 12 force: 8.23
+Link 5, joint 12 force: 11.36
+Link 5, joint 12 force: 4.95
+Link 5, joint 12 force: 4.59
+Link 5, joint 17 force: 0.09
+Link 5, joint 12 force: 0.07
+[Grasped] Link 5: joint 17 = 7.91, joint 12 = 9.85
+Grasp successful!
+Distance difference: 0.003818272629385351
+Distance difference: 0.05816140106964646
+Distance difference: 0.0579153145125134
+  [ASYNC] Inference: 2034.5ms
+  [ASYNC] Inference: 5.2ms
+[Step 44] Latent Norm: 3.2156 | Action Age: 1078.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0038455722182049942
+Link 5, joint 17 force: 0.22
+Link 5, joint 17 force: 2.33
+Link 5, joint 17 force: 3.12
+Link 5, joint 17 force: 3.07
+[Grasped] Link 5: joint 17 = 10.40, joint 12 = 8.87
+Grasp successful!
+Distance difference: 0.0038455722182049942
+Distance difference: 0.08875317871783744
+Distance difference: 0.0822620086073364
+Distance difference: 0.08187672006508191
+  [ASYNC] Inference: 1446.0ms
+Distance difference: 0.08185783792265054
+[Step 49] Latent Norm: 3.5520 | Action Age: 2179.8ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0047166374468770676
+  [ASYNC] Inference: 298.0ms
+Link 5, joint 12 force: 2.08
+Link 5, joint 12 force: 4.30
+Link 5, joint 12 force: 6.05
+Link 5, joint 12 force: 0.53
+Link 5, joint 12 force: 0.33
+Link 5, joint 12 force: 0.35
+Link 5, joint 17 force: 6.69
+[Grasped] Link 5: joint 17 = 14.13, joint 12 = 15.87
+Grasp successful!
+Distance difference: 0.0047166374468770676
+[Step 50] Latent Norm: 3.5925 | Action Age: 45391.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.002277878959816533
+  [ASYNC] Inference: 682.4ms
+Link 5, joint 17 force: 0.31
+Link 5, joint 17 force: 2.16
+Link 5, joint 17 force: 2.68
+Link 5, joint 17 force: 2.19
+[Grasped] Link 5: joint 17 = 10.07, joint 12 = 8.87
+Grasp successful!
+Distance difference: 0.002277878959816533
+[Step 51] Latent Norm: 3.1056 | Action Age: 43900.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008144409022724293
+Link 5, joint 12 force: 2.88
+Link 5, joint 12 force: 1.16
+Link 5, joint 17 force: 3.65
+Link 5, joint 12 force: 0.79
+[Grasped] Link 5: joint 17 = 10.28, joint 12 = 13.60
+Grasp successful!
+Distance difference: 0.008144409022724293
+Distance difference: 0.060545664557574735
+Distance difference: 0.061022724029507626
+  [ASYNC] Inference: 1474.4msDistance difference: 0.06102781338468772
+
+[Step 55] Latent Norm: 3.1056 | Action Age: 2124.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0035250095860934996
+  [ASYNC] Inference: 288.7ms
+Link 5, joint 17 force: 0.26
+Link 5, joint 17 force: 2.15
+Link 5, joint 17 force: 2.64
+Link 5, joint 17 force: 2.16
+Link 5, joint 17 force: 0.17
+[Grasped] Link 5: joint 17 = 11.59, joint 12 = 7.69
+Grasp successful!
+Distance difference: 0.0035250095860934996
+[Step 56] Latent Norm: 3.2079 | Action Age: 50297.9ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008338591106383948
+  [ASYNC] Inference: 961.8ms
+Link 5, joint 12 force: 1.27
+Link 5, joint 12 force: 3.28
+Link 5, joint 12 force: 4.71
+Link 5, joint 12 force: 5.75
+[Grasped] Link 5: joint 17 = 9.35, joint 12 = 14.63
+Grasp successful!
+Distance difference: 0.008338591106383948
+[Step 57] Latent Norm: 3.1056 | Action Age: 49049.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.002954179134187542
+Link 5, joint 17 force: 0.02
+Link 5, joint 17 force: 1.15
+Link 5, joint 17 force: 2.61
+Link 5, joint 17 force: 2.80
+Link 5, joint 17 force: 2.79
+Link 5, joint 17 force: 0.08
+Link 5, joint 12 force: 1.44
+[Grasped] Link 5: joint 17 = 11.14, joint 12 = 7.83
+Grasp successful!
+Distance difference: 0.002954179134187542
+Distance difference: 0.08849875028438195
+Distance difference: 0.0820026366596514
+Distance difference: 0.08161469089060212
+  [ASYNC] Inference: 1720.1ms
+[Step 61] Latent Norm: 3.1056 | Action Age: 2362.0ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0048303857663812965
+  [ASYNC] Inference: 321.1ms
+Link 5, joint 12 force: 2.58
+Link 5, joint 12 force: 4.60
+Link 5, joint 12 force: 6.36
+Link 5, joint 17 force: 7.08
+[Grasped] Link 5: joint 17 = 14.30, joint 12 = 18.30
+Grasp successful!
+Distance difference: 0.0048303857663812965
+[Step 62] Latent Norm: 3.5879 | Action Age: 47627.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.002328727469408556
+  [ASYNC] Inference: 877.4ms
+Link 5, joint 12 force: 2.66
+Link 5, joint 12 force: 3.42
+Link 5, joint 12 force: 0.01
+[Grasped] Link 5: joint 17 = 3.92, joint 12 = 4.06
+Grasp successful!
+Distance difference: 0.002328727469408556
+[Step 63] Latent Norm: 3.1056 | Action Age: 40730.1ms
+Distance difference: 0.01257289725948257
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0027938681991899464
+  [ASYNC] Inference: 1013.7ms
+Link 5, joint 17 force: 0.10
+Link 5, joint 17 force: 0.83
+Link 5, joint 17 force: 2.17
+[Grasped] Link 5: joint 17 = 5.74, joint 12 = 6.42
+Grasp successful!
+Distance difference: 0.0027938681991899464
+[Step 65] Latent Norm: 3.7004 | Action Age: 41475.4ms
+Distance difference: 0.012325249921540543
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.003050531844271693
+  [ASYNC] Inference: 892.4ms
+Link 5, joint 17 force: 0.26
+Link 5, joint 17 force: 2.21
+Link 5, joint 17 force: 3.92
+[Grasped] Link 5: joint 17 = 7.54, joint 12 = 6.42
+Grasp successful!
+Distance difference: 0.003050531844271693
+[Step 67] Latent Norm: 3.7010 | Action Age: 42515.6ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.00778631120472606
+Link 5, joint 12 force: 1.21
+Link 5, joint 12 force: 4.73
+Link 5, joint 12 force: 6.02
+[Grasped] Link 5: joint 17 = 4.00, joint 12 = 14.68
+Grasp successful!
+Distance difference: 0.00778631120472606
+Distance difference: 0.06594437189265748
+Distance difference: 0.057583292141391615
+  [ASYNC] Inference: 1655.9ms
+Distance difference: 0.05683221092410722
+[Step 71] Latent Norm: 3.1056 | Action Age: 2644.1ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.001658086614142768
+  [ASYNC] Inference: 474.8ms
+Link 5, joint 17 force: 0.05
+Link 5, joint 17 force: 0.38
+Link 5, joint 17 force: 2.62
+Link 5, joint 17 force: 3.44
+[Grasped] Link 5: joint 17 = 8.15, joint 12 = 6.32
+Grasp successful!
+Distance difference: 0.001658086614142768
+[Step 72] Latent Norm: 3.7436 | Action Age: 42612.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0021778308826384
+  [ASYNC] Inference: 913.5ms
+Link 5, joint 12 force: 1.91
+Link 5, joint 12 force: 0.52
+Link 5, joint 17 force: 0.10
+Link 5, joint 12 force: 0.89
+[Grasped] Link 5: joint 17 = 5.51, joint 12 = 11.54
+Grasp successful!
+Distance difference: 0.0021778308826384
+[Step 73] Latent Norm: 3.1056 | Action Age: 43858.0ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.00840767049273343
+Link 5, joint 12 force: 2.28
+Link 5, joint 12 force: 3.83
+Link 5, joint 17 force: 0.22
+Link 5, joint 12 force: 5.71
+[Grasped] Link 5: joint 17 = 3.14, joint 12 = 15.51
+Grasp successful!
+Distance difference: 0.00840767049273343
+Distance difference: 0.1318568420510221
+Distance difference: 0.13346337490678145
+  [ASYNC] Inference: 1510.6ms
+[Step 76] Latent Norm: 3.1056 | Action Age: 2350.7ms
+Distance difference: 0.010532641377664072
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.004741452682774583  [ASYNC] Inference: 546.9ms
+
+Link 5, joint 12 force: 1.76
+Link 5, joint 12 force: 2.40
+Link 5, joint 12 force: 0.51
+Link 5, joint 12 force: 1.31
+Link 5, joint 17 force: 0.13
+Link 5, joint 17 force: 17.85
+Link 5, joint 17 force: 30.03
+[Grasped] Link 5: joint 17 = 27.65, joint 12 = 13.00
+Grasp successful!
+Distance difference: 0.004741452682774583
+[Step 78] Latent Norm: 3.3613 | Action Age: 44663.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.002563342014105148
+  [ASYNC] Inference: 1001.2ms
+Link 5, joint 17 force: 0.07
+Link 5, joint 17 force: 0.75
+Link 5, joint 17 force: 1.18
+Link 5, joint 17 force: 0.35
+Link 5, joint 17 force: 0.09
+[Grasped] Link 5: joint 17 = 8.29, joint 12 = 9.88
+Grasp successful!
+Distance difference: 0.002563342014105148
+[Step 79] Latent Norm: 3.1056 | Action Age: 40089.8ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007906020935779533
+Link 5, joint 12 force: 2.32
+Link 5, joint 12 force: 5.11
+Link 5, joint 12 force: 6.23
+Link 5, joint 12 force: 4.15
+Link 5, joint 12 force: 7.89
+Link 5, joint 12 force: 0.82
+Link 5, joint 12 force: 1.78
+[Grasped] Link 5: joint 17 = 6.48, joint 12 = 9.50
+Grasp successful!
+Distance difference: 0.007906020935779533
+Distance difference: 0.08215944554920797
+Distance difference: 0.0858715962825836
+  [ASYNC] Inference: 1708.3ms
+Distance difference: 0.08622417887726058
+[Step 83] Latent Norm: 3.1056 | Action Age: 2782.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0060185522141872685
+  [ASYNC] Inference: 445.5ms
+Link 5, joint 17 force: 0.13
+Link 5, joint 17 force: 1.77
+Link 5, joint 17 force: 2.12
+Link 5, joint 17 force: 1.51
+[Grasped] Link 5: joint 17 = 8.84, joint 12 = 9.56
+Grasp successful!
+Distance difference: 0.0060185522141872685
+[Step 84] Latent Norm: 3.3773 | Action Age: 40086.2ms
+Distance difference: 0.014484686942481152
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.001549659175176975
+  [ASYNC] Inference: 930.4ms
+Link 5, joint 17 force: 0.05
+[Grasped] Link 5: joint 17 = 5.08, joint 12 = 3.62
+Grasp successful!
+Distance difference: 0.001549659175176975
+[Step 86] Latent Norm: 3.1056 | Action Age: 39220.6ms
+Distance difference: 0.010190997830062913
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0024496878385098088
+  [ASYNC] Inference: 923.6ms
+Link 5, joint 12 force: 2.74
+Link 5, joint 12 force: 4.10
+Link 5, joint 12 force: 4.92
+Link 5, joint 12 force: 5.44
+[Grasped] Link 5: joint 17 = 7.54, joint 12 = 18.98
+Grasp successful!
+Distance difference: 0.0024496878385098088
+[Step 88] Latent Norm: 3.1056 | Action Age: 41450.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.003400578726690119
+  [ASYNC] Inference: 764.5ms
+Link 5, joint 12 force: 0.28
+Link 5, joint 12 force: 1.45
+Link 5, joint 12 force: 0.40
+Link 5, joint 17 force: 0.07
+Link 5, joint 12 force: 0.47
+[Grasped] Link 5: joint 17 = 5.83, joint 12 = 11.03
+Grasp successful!
+Distance difference: 0.003400578726690119
+[Step 89] Latent Norm: 3.1056 | Action Age: 40824.1ms
+Distance difference: 0.014937422341615887
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0015102112831546946
+  [ASYNC] Inference: 855.9ms
+[Grasped] Link 5: joint 17 = 4.64, joint 12 = 5.47
+Grasp successful!
+Distance difference: 0.0015102112831546946
+[Step 91] Latent Norm: 3.6950 | Action Age: 40671.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.003283207036975929
+Link 5, joint 12 force: 3.04
+Link 5, joint 12 force: 2.81
+Link 5, joint 12 force: 0.18
+Link 5, joint 12 force: 4.11
+Link 5, joint 12 force: 7.24
+Link 5, joint 12 force: 10.72
+Link 5, joint 17 force: 1.16
+Link 5, joint 12 force: 4.37
+[Grasped] Link 5: joint 17 = 11.26, joint 12 = 13.85
+Grasp successful!
+Distance difference: 0.003283207036975929
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0032832122451836995
+  [ASYNC] Inference: 953.3ms
+Link 5, joint 12 force: 3.04
+Link 5, joint 12 force: 2.81
+Link 5, joint 12 force: 0.70
+[Grasped] Link 5: joint 17 = 9.02, joint 12 = 3.39
+Grasp successful!
+Distance difference: 0.0032832122451836995
+[Step 93] Latent Norm: 3.1056 | Action Age: 39924.6ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.008656432759579995
+Link 5, joint 12 force: 1.90
+Link 5, joint 12 force: 3.60
+Link 5, joint 12 force: 4.87
+Link 5, joint 12 force: 0.38
+Link 5, joint 17 force: 6.23
+[Grasped] Link 5: joint 17 = 19.74, joint 12 = 7.61
+Grasp successful!
+Distance difference: 0.008656432759579995
+Distance difference: 0.08155015965399824
+Distance difference: 0.08518295403077865
+  [ASYNC] Inference: 1015.3ms
+[Step 96] Latent Norm: 3.1056 | Action Age: 1945.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.004999936222622313
+  [ASYNC] Inference: 287.7ms
+Link 5, joint 17 force: 0.34
+Link 5, joint 17 force: 2.44
+Link 5, joint 17 force: 3.07
+[Grasped] Link 5: joint 17 = 8.95, joint 12 = 9.48
+Grasp successful!
+Distance difference: 0.004999936222622313
+[Step 97] Latent Norm: 3.3745 | Action Age: 40073.3ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.0073536187651300385
+Link 5, joint 17 force: 0.19
+[Grasped] Link 5: joint 17 = 13.52, joint 12 = 5.13
+Grasp successful!
+Distance difference: 0.0073536187651300385
+Distance difference: 0.1335239474134274
+Distance difference: 0.13204293695771882
+  [ASYNC] Inference: 1418.0ms
+[Step 100] Latent Norm: 3.1056 | Action Age: 2336.9ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.002904797381993389
+  [ASYNC] Inference: 368.3ms
+Link 5, joint 12 force: 2.34
+Link 5, joint 12 force: 3.68
+Link 5, joint 17 force: 0.04
+Link 5, joint 12 force: 7.02
+Link 5, joint 17 force: 0.18
+Link 5, joint 12 force: 12.86
+[Grasped] Link 5: joint 17 = 16.84, joint 12 = 33.72
+Grasp successful!
+Distance difference: 0.002904797381993389
+[Step 101] Latent Norm: 3.5771 | Action Age: 39650.6ms
+Distance difference: 0.010455031898723387
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0024436460649396334
+  [ASYNC] Inference: 6613.4ms
+Link 5, joint 12 force: 0.05
+Link 5, joint 12 force: 2.15
+Link 5, joint 12 force: 3.34
+Link 5, joint 17 force: 0.04
+Link 5, joint 12 force: 7.39
+Link 5, joint 17 force: 0.15
+Link 5, joint 12 force: 13.75
+[Grasped] Link 5: joint 17 = 18.14, joint 12 = 35.13
+Grasp successful!
+Distance difference: 0.0024436460649396334
+[Step 103] Latent Norm: 3.6198 | Action Age: 40435.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007972388025450975
+Link 5, joint 12 force: 2.85
+Link 5, joint 12 force: 1.10
+Link 5, joint 17 force: 0.09
+Link 5, joint 12 force: 0.52
+[Grasped] Link 5: joint 17 = 11.79, joint 12 = 5.18
+Grasp successful!
+Distance difference: 0.007972388025450975
+Distance difference: 0.060528702009552696
+Distance difference: 0.06100694573309456
+  [ASYNC] Inference: 1419.0ms
+[Step 106] Latent Norm: 3.1056 | Action Age: 2327.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.005237808673382939
+  [ASYNC] Inference: 362.5ms
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 1.07
+Link 5, joint 17 force: 1.76
+Link 5, joint 17 force: 0.39
+Link 5, joint 17 force: 0.09
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.08
+Link 5, joint 17 force: 0.01
+Link 5, joint 12 force: 0.42
+[Grasped] Link 5: joint 17 = 10.82, joint 12 = 4.54
+Grasp successful!
+Distance difference: 0.005237808673382939
+[Step 107] Latent Norm: 3.2066 | Action Age: 40852.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0048630053011726754
+Link 5, joint 17 force: 0.08
+Link 5, joint 17 force: 0.48
+Link 5, joint 17 force: 0.08
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.08
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.03
+[Grasped] Link 5: joint 17 = 6.39, joint 12 = 7.62
+Grasp successful!
+Distance difference: 0.0048630053011726754
+Distance difference: 0.06850506038895483
+Distance difference: 0.05856056568002961
+  [ASYNC] Inference: 1390.3ms
+[Step 110] Latent Norm: 3.1056 | Action Age: 2272.6ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0033597406717774904
+  [ASYNC] Inference: 219.5ms
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.59
+Link 5, joint 17 force: 2.76
+Link 5, joint 17 force: 3.05
+Link 5, joint 17 force: 2.79
+Link 5, joint 17 force: 0.16
+[Grasped] Link 5: joint 17 = 10.17, joint 12 = 7.40
+Grasp successful!
+Distance difference: 0.0033597406717774904
+[Step 111] Latent Norm: 3.6038 | Action Age: 38306.7ms
+Distance difference: 0.012428535728722625
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.003801299022873831
+  [ASYNC] Inference: 891.6ms
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.29
+Link 5, joint 17 force: 2.31
+Link 5, joint 17 force: 2.63
+Link 5, joint 17 force: 2.15
+Link 5, joint 17 force: 0.16
+[Grasped] Link 5: joint 17 = 9.85, joint 12 = 7.06
+Grasp successful!
+Distance difference: 0.003801299022873831
+[Step 113] Latent Norm: 3.6999 | Action Age: 39744.1ms
+Distance difference: 0.012373321061694578
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0035945128577887127
+  [ASYNC] Inference: 885.3ms
+Link 5, joint 17 force: 0.11
+Link 5, joint 17 force: 0.85
+Link 5, joint 17 force: 1.61
+Link 5, joint 17 force: 1.66
+Link 5, joint 17 force: 0.14
+[Grasped] Link 5: joint 17 = 8.89, joint 12 = 5.54
+Grasp successful!
+Distance difference: 0.0035945128577887127
+[Step 115] Latent Norm: 3.7002 | Action Age: 40963.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.00146208419714981
+Link 5, joint 12 force: 0.14
+Link 5, joint 12 force: 1.86
+Link 5, joint 12 force: 0.02
+Link 5, joint 17 force: 0.07
+Link 5, joint 12 force: 0.66
+[Grasped] Link 5: joint 17 = 6.43, joint 12 = 10.39
+Grasp successful!
+Distance difference: 0.00146208419714981
+Distance difference: 0.12095588603585317
+Distance difference: 0.12031568816701375
+  [ASYNC] Inference: 1534.6msDistance difference: 0.12029904987242093
+
+[Step 119] Latent Norm: 3.1056 | Action Age: 2341.3ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.006099190757600553
+  [ASYNC] Inference: 291.3ms
+Link 5, joint 12 force: 0.65
+Link 5, joint 12 force: 3.51
+Link 5, joint 12 force: 0.63
+Link 5, joint 17 force: 1.32
+Link 5, joint 12 force: 2.97
+[Grasped] Link 5: joint 17 = 10.23, joint 12 = 14.38
+Grasp successful!
+Distance difference: 0.006099190757600553
+[Step 120] Latent Norm: 3.1879 | Action Age: 40651.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.001858521406256918
+  [ASYNC] Inference: 560.4ms
+Link 5, joint 12 force: 0.00
+Link 5, joint 12 force: 1.73
+Link 5, joint 12 force: 2.00
+Link 5, joint 12 force: 0.00
+Link 5, joint 17 force: 1.99
+Link 5, joint 12 force: 0.56
+[Grasped] Link 5: joint 17 = 14.38, joint 12 = 4.96
+Grasp successful!
+Distance difference: 0.001858521406256918
+[Step 121] Latent Norm: 3.1056 | Action Age: 41029.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.003690604498215867
+Link 5, joint 17 force: 0.99
+Link 5, joint 17 force: 2.46
+Link 5, joint 17 force: 2.35
+Link 5, joint 17 force: 1.79
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 1.05
+[Grasped] Link 5: joint 17 = 10.72, joint 12 = 6.26
+Grasp successful!
+Distance difference: 0.003690604498215867
+Distance difference: 0.08795127558886404
+Distance difference: 0.08428816712911527
+  [ASYNC] Inference: 1726.9msDistance difference: 0.0840447218554745
+
+[Step 125] Latent Norm: 3.1056 | Action Age: 2522.8ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.001131600864967322
+  [ASYNC] Inference: 362.0ms
+Grasp failed.
+Distance difference: 0.001131600864967322
+[Step 126] Latent Norm: 3.5600 | Action Age: 24308.0ms
+Distance difference: 0.012384952528796499
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.00283758731298232
+  [ASYNC] Inference: 880.6ms
+Link 5, joint 17 force: 0.05
+Link 5, joint 17 force: 0.12
+Link 5, joint 17 force: 2.56
+[Grasped] Link 5: joint 17 = 5.16, joint 12 = 5.84
+Grasp successful!
+Distance difference: 0.00283758731298232
+[Step 128] Latent Norm: 3.1056 | Action Age: 38490.8ms
+Distance difference: 0.012454974229433724
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.00292376218183097
+  [ASYNC] Inference: 931.4ms
+Link 5, joint 17 force: 0.17
+Link 5, joint 17 force: 1.37
+Link 5, joint 17 force: 2.92
+[Grasped] Link 5: joint 17 = 6.40, joint 12 = 6.54
+Grasp successful!
+Distance difference: 0.00292376218183097
+[Step 130] Latent Norm: 3.1056 | Action Age: 40105.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008135761656179205
+  [ASYNC] Inference: 845.1ms
+Link 5, joint 12 force: 2.79
+Link 5, joint 12 force: 1.63
+Link 5, joint 17 force: 4.17
+Link 5, joint 12 force: 0.46
+[Grasped] Link 5: joint 17 = 10.02, joint 12 = 13.56
+Grasp successful!
+Distance difference: 0.008135761656179205
+[Step 131] Latent Norm: 3.1056 | Action Age: 37530.3ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.007826996046012103
+Link 5, joint 12 force: 2.29
+Link 5, joint 12 force: 4.03
+Link 5, joint 17 force: 0.42
+Link 5, joint 12 force: 6.17
+[Grasped] Link 5: joint 17 = 3.19, joint 12 = 15.41
+Grasp successful!
+Distance difference: 0.007826996046012103
+Distance difference: 0.13218438805402474
+Distance difference: 0.13383578180566152
+  [ASYNC] Inference: 1656.4msDistance difference: 0.1341536248203849
+
+[Step 135] Latent Norm: 3.1056 | Action Age: 2773.9ms
+Distance difference: 0.011423063314346647
+  [ASYNC] Inference: 992.9ms
+[Step 136] Latent Norm: 3.3636 | Action Age: 2375.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.004493871579696006
+  [ASYNC] Inference: 367.9ms
+Link 5, joint 12 force: 1.80
+Link 5, joint 12 force: 2.70
+Link 5, joint 12 force: 0.55
+Link 5, joint 12 force: 0.19
+Link 5, joint 17 force: 0.12
+Link 5, joint 12 force: 0.32
+Link 5, joint 17 force: 15.57
+Link 5, joint 12 force: 1.85
+[Grasped] Link 5: joint 17 = 28.31, joint 12 = 5.66
+Grasp successful!
+Distance difference: 0.004493871579696006
+[Step 137] Latent Norm: 3.1696 | Action Age: 40168.1ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008269323645162524
+Link 5, joint 12 force: 0.23
+Link 5, joint 12 force: 0.66
+Link 5, joint 17 force: 0.06
+Link 5, joint 12 force: 0.99
+[Grasped] Link 5: joint 17 = 7.40, joint 12 = 11.86
+Grasp successful!
+Distance difference: 0.008269323645162524
+Distance difference: 0.08023417236813153
+Distance difference: 0.08387273783598935
+  [ASYNC] Inference: 1389.9ms
+  [ASYNC] Inference: 8.9ms
+[Step 140] Latent Norm: 3.3827 | Action Age: 745.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.007660453665494868
+Link 5, joint 17 force: 0.09
+Link 5, joint 17 force: 1.48
+Link 5, joint 17 force: 2.31
+Link 5, joint 17 force: 2.36
+[Grasped] Link 5: joint 17 = 9.12, joint 12 = 9.71
+Grasp successful!
+Distance difference: 0.007660453665494868
+Distance difference: 0.0637245441751522
+Distance difference: 0.06237213730706013
+Distance difference: 0.06225158525983756
+  [ASYNC] Inference: 1087.0ms
+[Step 144] Latent Norm: 3.1748 | Action Age: 1802.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.004930617014171598
+  [ASYNC] Inference: 286.3ms
+Link 5, joint 12 force: 3.08
+Link 5, joint 12 force: 3.25
+Link 5, joint 17 force: 0.11
+Link 5, joint 12 force: 2.15
+Link 5, joint 17 force: 16.56
+Link 5, joint 12 force: 0.04
+Link 5, joint 17 force: 28.58
+Link 5, joint 12 force: 0.51
+[Grasped] Link 5: joint 17 = 36.57, joint 12 = 5.74
+Grasp successful!
+Distance difference: 0.004930617014171598
+[Step 145] Latent Norm: 3.1631 | Action Age: 37824.6ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.00859808761924687
+Link 5, joint 12 force: 3.27
+Link 5, joint 12 force: 4.61
+Link 5, joint 12 force: 6.16
+Link 5, joint 17 force: 0.10
+Link 5, joint 12 force: 0.85
+[Grasped] Link 5: joint 17 = 6.32, joint 12 = 11.73
+Grasp successful!
+Distance difference: 0.00859808761924687
+Distance difference: 0.05695874888610172
+Distance difference: 0.06123360011967248
+  [ASYNC] Inference: 1512.8ms
+Distance difference: 0.06172213988819232
+[Step 149] Latent Norm: 3.1056 | Action Age: 2246.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.007164978764844824
+  [ASYNC] Inference: 289.8ms
+Link 5, joint 12 force: 1.02
+Link 5, joint 12 force: 2.70
+Link 5, joint 12 force: 0.43
+Link 5, joint 17 force: 2.84
+Link 5, joint 12 force: 5.04
+[Grasped] Link 5: joint 17 = 6.82, joint 12 = 15.72
+Grasp successful!
+Distance difference: 0.007164978764844824
+[Step 150] Latent Norm: 3.3263 | Action Age: 40237.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0024505041051296732
+  [ASYNC] Inference: 831.4ms
+Link 5, joint 17 force: 0.91
+Link 5, joint 17 force: 2.85
+Link 5, joint 17 force: 3.45
+Link 5, joint 17 force: 3.61
+[Grasped] Link 5: joint 17 = 11.06, joint 12 = 8.65
+Grasp successful!
+Distance difference: 0.0024505041051296732
+[Step 151] Latent Norm: 3.1056 | Action Age: 40530.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0022853848314379837
+Link 5, joint 17 force: 0.10
+Link 5, joint 17 force: 1.48
+Link 5, joint 17 force: 1.98
+Link 5, joint 17 force: 1.04
+[Grasped] Link 5: joint 17 = 8.77, joint 12 = 9.61
+Grasp successful!
+Distance difference: 0.0022853848314379837
+Distance difference: 0.08634879266515794
+Distance difference: 0.08264879057603915
+  [ASYNC] Inference: 1215.0ms
+[Step 154] Latent Norm: 3.1056 | Action Age: 1933.3ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0007608165628102759
+  [ASYNC] Inference: 356.2ms
+Link 5, joint 12 force: 1.18
+Link 5, joint 12 force: 3.38
+Link 5, joint 12 force: 4.77
+Link 5, joint 12 force: 0.75
+[Grasped] Link 5: joint 17 = 4.54, joint 12 = 7.73
+Grasp successful!
+Distance difference: 0.0007608165628102759
+[Step 155] Latent Norm: 3.5612 | Action Age: 36153.5ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007252298575191635
+Grasp failed.
+Distance difference: 0.007252298575191635
+Distance difference: 0.055784476268060386
+Distance difference: 0.060122696872523126
+  [ASYNC] Inference: 1424.0msDistance difference: 0.06048083388250297
+
+[Step 159] Latent Norm: 3.1056 | Action Age: 2064.1ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.004885079716865622
+  [ASYNC] Inference: 218.5ms
+[Grasped] Link 5: joint 17 = 5.48, joint 12 = 3.81
+Grasp successful!
+Distance difference: 0.004885079716865622
+[Step 160] Latent Norm: 3.7594 | Action Age: 38777.0ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.009786610951160835
+  [ASYNC] Inference: 958.2ms
+Link 5, joint 12 force: 0.27
+Link 5, joint 17 force: 4.86
+Link 5, joint 12 force: 2.82
+[Grasped] Link 5: joint 17 = 10.28, joint 12 = 15.29
+Grasp successful!
+Distance difference: 0.009786610951160835
+[Step 161] Latent Norm: 3.1056 | Action Age: 39363.8ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0014000449315004742
+Link 5, joint 17 force: 0.06
+Link 5, joint 17 force: 0.76
+[Grasped] Link 5: joint 17 = 5.39, joint 12 = 8.22
+Grasp successful!
+Distance difference: 0.0014000449315004742
+Distance difference: 0.09094648419731002
+Distance difference: 0.08449732578187735
+  [ASYNC] Inference: 1469.6ms
+Distance difference: 0.0841078341004613
+[Step 165] Latent Norm: 3.1056 | Action Age: 2198.9ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.00394737525049149
+  [ASYNC] Inference: 289.6ms
+Link 5, joint 12 force: 1.26
+Link 5, joint 12 force: 3.64
+Link 5, joint 12 force: 4.99
+Link 5, joint 12 force: 0.63
+Link 5, joint 12 force: 4.62
+Link 5, joint 12 force: 9.69
+Link 5, joint 12 force: 6.73
+Link 5, joint 12 force: 0.08
+Link 5, joint 12 force: 8.28
+Link 5, joint 12 force: 14.72
+[Grasped] Link 5: joint 17 = 7.09, joint 12 = 23.93
+Grasp successful!
+Distance difference: 0.00394737525049149
+[Step 166] Latent Norm: 3.5837 | Action Age: 38765.9ms
+Distance difference: 0.011383247016973767
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0043266028010355475
+  [ASYNC] Inference: 846.5ms
+Link 5, joint 12 force: 0.87
+Link 5, joint 12 force: 2.99
+Link 5, joint 12 force: 4.41
+Link 5, joint 12 force: 5.32
+[Grasped] Link 5: joint 17 = 4.97, joint 12 = 7.14
+Grasp successful!
+Distance difference: 0.0043266028010355475
+[Step 168] Latent Norm: 3.1056 | Action Age: 37037.4ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.008755506407876404
+  [ASYNC] Inference: 964.9ms
+Link 5, joint 12 force: 2.42
+Link 5, joint 12 force: 3.91
+Link 5, joint 12 force: 5.11
+Link 5, joint 12 force: 0.00
+Link 5, joint 12 force: 3.32
+Link 5, joint 12 force: 5.49
+Link 5, joint 17 force: 0.01
+Link 5, joint 12 force: 6.22
+Link 5, joint 12 force: 11.90
+Link 5, joint 12 force: 4.26
+Link 5, joint 17 force: 0.18
+Link 5, joint 12 force: 1.86
+Link 5, joint 12 force: 3.93
+Link 5, joint 17 force: 0.12
+Link 5, joint 12 force: 3.69
+Link 5, joint 12 force: 4.51
+Link 5, joint 17 force: 1.22
+Link 5, joint 12 force: 12.17
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 12.88
+Link 5, joint 12 force: 9.40
+Link 5, joint 12 force: 9.92
+Link 5, joint 17 force: 0.02
+Link 5, joint 12 force: 10.40
+Link 5, joint 12 force: 11.24
+Link 5, joint 17 force: 0.08
+Link 5, joint 12 force: 12.54
+[Grasped] Link 5: joint 17 = 12.35, joint 12 = 22.55
+Grasp successful!
+Distance difference: 0.008755506407876404
+[Step 169] Latent Norm: 3.1056 | Action Age: 41310.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.001375830512297606
+Link 5, joint 12 force: 2.39
+[Grasped] Link 5: joint 17 = 4.92, joint 12 = 8.36
+Grasp successful!
+Distance difference: 0.001375830512297606
+Distance difference: 0.07035363731050118
+Distance difference: 0.060280357246030834
+  [ASYNC] Inference: 1062.4ms
+[Step 172] Latent Norm: 3.1056 | Action Age: 2019.8ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0032202335732289026
+  [ASYNC] Inference: 222.4ms
+Link 5, joint 12 force: 0.30
+Link 5, joint 12 force: 3.19
+Link 5, joint 12 force: 4.93
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 9.40
+Link 5, joint 17 force: 0.20
+Link 5, joint 12 force: 15.66
+Link 5, joint 12 force: 17.86
+Link 5, joint 17 force: 0.17
+Link 5, joint 12 force: 2.24
+Link 5, joint 17 force: 0.10
+Link 5, joint 12 force: 3.13
+Link 5, joint 12 force: 4.81
+Link 5, joint 17 force: 0.19
+Link 5, joint 12 force: 3.85
+Link 5, joint 12 force: 5.69
+Link 5, joint 17 force: 0.26
+Link 5, joint 12 force: 6.28
+[Grasped] Link 5: joint 17 = 6.03, joint 12 = 14.35
+Grasp successful!
+Distance difference: 0.0032202335732289026
+[Step 173] Latent Norm: 3.5986 | Action Age: 40468.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007575706570438183
+Link 5, joint 12 force: 1.11
+Link 5, joint 12 force: 2.39
+Link 5, joint 12 force: 0.54
+Link 5, joint 17 force: 11.58
+Link 5, joint 17 force: 24.78
+Link 5, joint 17 force: 40.68
+[Grasped] Link 5: joint 17 = 26.54, joint 12 = 7.31
+Grasp successful!
+Distance difference: 0.007575706570438183
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007575698361889583
+  [ASYNC] Inference: 796.5ms
+Link 5, joint 12 force: 1.20
+Link 5, joint 12 force: 2.41
+Link 5, joint 12 force: 0.27
+Link 5, joint 17 force: 9.20
+Link 5, joint 17 force: 18.61
+Link 5, joint 12 force: 2.78
+[Grasped] Link 5: joint 17 = 28.96, joint 12 = 10.04
+Grasp successful!
+Distance difference: 0.007575698361889583
+[Step 175] Latent Norm: 3.1056 | Action Age: 40192.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0013129462537206616
+Link 5, joint 17 force: 0.07
+[Grasped] Link 5: joint 17 = 6.11, joint 12 = 4.69
+Grasp successful!
+Distance difference: 0.0013129462537206616
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.00131294304983843
+  [ASYNC] Inference: 809.3ms
+Link 5, joint 17 force: 0.07
+[Grasped] Link 5: joint 17 = 6.10, joint 12 = 4.68
+Grasp successful!
+Distance difference: 0.00131294304983843
+[Step 177] Latent Norm: 3.1056 | Action Age: 39413.8ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007611784800247147
+Link 5, joint 12 force: 0.81
+Link 5, joint 12 force: 2.35
+Link 5, joint 12 force: 1.12
+Link 5, joint 17 force: 8.46
+[Grasped] Link 5: joint 17 = 10.64, joint 12 = 12.19
+Grasp successful!
+Distance difference: 0.007611784800247147
+Distance difference: 0.11497064565033946
+Distance difference: 0.1152271113474652
+  [ASYNC] Inference: 1149.8ms
+[Step 180] Latent Norm: 3.1056 | Action Age: 1881.9ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.004327367829806931
+  [ASYNC] Inference: 289.8ms
+Link 5, joint 12 force: 1.99
+Link 5, joint 12 force: 2.75
+Link 5, joint 12 force: 2.59
+Link 5, joint 12 force: 5.59
+Link 5, joint 12 force: 8.67
+Link 5, joint 12 force: 3.04
+Link 5, joint 12 force: 5.42
+Link 5, joint 12 force: 6.13
+Link 5, joint 12 force: 3.88
+Link 5, joint 17 force: 2.15
+[Grasped] Link 5: joint 17 = 10.68, joint 12 = 4.40
+Grasp successful!
+Distance difference: 0.004327367829806931
+[Step 181] Latent Norm: 3.2030 | Action Age: 41054.9ms
+Distance difference: 0.014368673582182032
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.00039325502256153593
+  [ASYNC] Inference: 1033.1ms
+Link 5, joint 12 force: 2.32
+Link 5, joint 12 force: 4.47
+[Grasped] Link 5: joint 17 = 6.04, joint 12 = 11.20
+Grasp successful!
+Distance difference: 0.00039325502256153593
+[Step 183] Latent Norm: 3.6976 | Action Age: 38132.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0016200222145389656
+Link 5, joint 17 force: 0.05
+Link 5, joint 17 force: 0.92
+Link 5, joint 17 force: 0.06
+[Grasped] Link 5: joint 17 = 9.80, joint 12 = 6.12
+Grasp successful!
+Distance difference: 0.0016200222145389656
+Distance difference: 0.055894060483961984
+Distance difference: 0.05606450752768645
+  [ASYNC] Inference: 1558.7msDistance difference: 0.05609518971857209
+
+[Step 187] Latent Norm: 3.1056 | Action Age: 2218.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.003582631315104428
+  [ASYNC] Inference: 295.1ms
+Link 5, joint 12 force: 1.73
+Link 5, joint 12 force: 2.57
+Link 5, joint 12 force: 0.51
+Link 5, joint 12 force: 0.23
+[Grasped] Link 5: joint 17 = 5.17, joint 12 = 9.09
+Grasp successful!
+Distance difference: 0.003582631315104428
+[Step 188] Latent Norm: 3.1866 | Action Age: 42150.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0019615738790165825
+  [ASYNC] Inference: 670.9ms
+Link 5, joint 17 force: 0.02
+Link 5, joint 17 force: 0.86
+Link 5, joint 17 force: 2.69
+Link 5, joint 17 force: 3.19
+[Grasped] Link 5: joint 17 = 9.26, joint 12 = 9.41
+Grasp successful!
+Distance difference: 0.0019615738790165825
+[Step 189] Latent Norm: 3.1056 | Action Age: 39839.9ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007764003966042138
+Link 5, joint 12 force: 2.28
+Link 5, joint 12 force: 4.06
+Link 5, joint 12 force: 5.47
+[Grasped] Link 5: joint 17 = 4.69, joint 12 = 5.07
+Grasp successful!
+Distance difference: 0.007764003966042138
+Distance difference: 0.05599684117172292
+Distance difference: 0.06012012405670727
+  [ASYNC] Inference: 1814.7msDistance difference: 0.06045831504359442
+
+[Step 193] Latent Norm: 3.1056 | Action Age: 2613.0ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.004732689121546799
+  [ASYNC] Inference: 328.6ms
+Link 5, joint 12 force: 1.44
+[Grasped] Link 5: joint 17 = 4.25, joint 12 = 5.80
+Grasp successful!
+Distance difference: 0.004732689121546799
+[Step 194] Latent Norm: 3.7575 | Action Age: 42233.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007933582011381956
+  [ASYNC] Inference: 646.9ms
+Link 5, joint 12 force: 2.80
+Link 5, joint 12 force: 2.43
+Link 5, joint 17 force: 0.11
+Link 5, joint 17 force: 9.65
+Link 5, joint 12 force: 1.95
+[Grasped] Link 5: joint 17 = 13.55, joint 12 = 13.08
+Grasp successful!
+Distance difference: 0.007933582011381956
+[Step 195] Latent Norm: 3.1056 | Action Age: 38147.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007991725370282475
+Link 5, joint 12 force: 2.72
+Link 5, joint 12 force: 1.02
+Link 5, joint 12 force: 0.43
+Link 5, joint 17 force: 1.16
+Link 5, joint 12 force: 2.06
+[Grasped] Link 5: joint 17 = 11.40, joint 12 = 15.15
+Grasp successful!
+Distance difference: 0.007991725370282475
+Distance difference: 0.11494601025662174
+Distance difference: 0.11522995342333017
+  [ASYNC] Inference: 1347.8ms
+Distance difference: 0.11524768502307714
+[Step 199] Latent Norm: 3.1056 | Action Age: 2141.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.004133790748456984
+  [ASYNC] Inference: 219.3ms
+Link 5, joint 12 force: 2.20
+Link 5, joint 12 force: 3.19
+Link 5, joint 12 force: 0.20
+Link 5, joint 17 force: 0.08
+Link 5, joint 12 force: 0.87
+[Grasped] Link 5: joint 17 = 5.86, joint 12 = 11.28
+Grasp successful!
+Distance difference: 0.004133790748456984
+[Step 200] Latent Norm: 3.2064 | Action Age: 41843.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0030593016552301223
+  [ASYNC] Inference: 966.4ms
+Link 5, joint 12 force: 1.91
+Link 5, joint 12 force: 2.86
+Link 5, joint 12 force: 0.39
+Link 5, joint 12 force: 4.61
+Link 5, joint 12 force: 8.01
+Link 5, joint 12 force: 3.77
+Link 5, joint 12 force: 6.38
+Link 5, joint 12 force: 6.60
+Link 5, joint 12 force: 0.30
+[Grasped] Link 5: joint 17 = 7.42, joint 12 = 7.04
+Grasp successful!
+Distance difference: 0.0030593016552301223
+[Step 201] Latent Norm: 3.1056 | Action Age: 38501.2ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007072539359371476
+Link 5, joint 12 force: 2.38
+Link 5, joint 12 force: 4.25
+Link 5, joint 12 force: 5.79
+Link 5, joint 12 force: 5.22
+Link 5, joint 12 force: 7.98
+Link 5, joint 12 force: 0.80
+[Grasped] Link 5: joint 17 = 9.59, joint 12 = 6.98
+Grasp successful!
+Distance difference: 0.007072539359371476
+Distance difference: 0.05735791673038197
+Distance difference: 0.057525943241491705
+Distance difference: 0.05753132918711409
+Distance difference: 0.05753495688797002
+Distance difference: 0.05754046768022289
+Distance difference: 0.05754166403331095
+Distance difference: 0.05754404561518843
+Distance difference: 0.05754609633709812
+Distance difference: 0.05754580619266108
+Distance difference: 0.05754654231090476
+Distance difference: 0.05754606228948787
+Distance difference: 0.05754702697738948
+Distance difference: 0.05754694271287696
+Distance difference: 0.0575466648029643
+Distance difference: 0.057546400454417335
+Distance difference: 0.05754626138131845
+Distance difference: 0.05754630444667397
+Distance difference: 0.05754654575070624
+Distance difference: 0.05754698297969759
+Distance difference: 0.0575475997130121
+Distance difference: 0.057548371364242144
+Distance difference: 0.05754927285210393
+Distance difference: 0.05755027760809769
+Distance difference: 0.057551361654951026
+Distance difference: 0.057552502291470305
+Distance difference: 0.0575536801727333
+Distance difference: 0.05755487778186766
+Distance difference: 0.057556080821594066
+Distance difference: 0.057557276836745004
+Distance difference: 0.05755845590277561
+Distance difference: 0.05755960980555114
+Distance difference: 0.05756073218232775
+Distance difference: 0.0575618182573005
+Distance difference: 0.05756286423973704
+Distance difference: 0.05756386750853729
+Distance difference: 0.05756482633867853
+Distance difference: 0.057565740039709
+Distance difference: 0.05756660794669045
+Distance difference: 0.057567430042168466
+Distance difference: 0.05756820751870627
+Distance difference: 0.05756894093468121
+Distance difference: 0.0575696314022033
+Distance difference: 0.057570280340510045
+Distance difference: 0.0575708892274524
+Distance difference: 0.0575714599257955
+Distance difference: 0.057571993693953466
+Distance difference: 0.057572492397547616
+Distance difference: 0.05757295777802442
+Distance difference: 0.05757339168668192
+Distance difference: 0.057573795960732956
+Distance difference: 0.05757417218773143
+Distance difference: 0.05757452195759568
+Distance difference: 0.05757484698848834
+Distance difference: 0.05757514871032016
+Distance difference: 0.05757542882262257
+Distance difference: 0.057575688276137224
+Distance difference: 0.05757592851072425
+Distance difference: 0.05757615097623208
+Distance difference: 0.057576356662414875
+Distance difference: 0.057576546830231966
+Distance difference: 0.05757672269141575
+Distance difference: 0.05757688502010287
+Distance difference: 0.057577035273042865
+Distance difference: 0.05757717397023636
+Distance difference: 0.05757730166321901
+Distance difference: 0.05757741928426786
+Distance difference: 0.05757752772241062
+Distance difference: 0.05757762744434316
+Distance difference: 0.05757771920321157
+Distance difference: 0.05757780372737457
+Distance difference: 0.05757788174092134
+Distance difference: 0.05757795336442081
+Distance difference: 0.05757801915980804
+Distance difference: 0.05757807938669057
+Distance difference: 0.05757813459287947
+Distance difference: 0.05757818530916304
+Distance difference: 0.05757823167221552
+Distance difference: 0.057578274122318994
+Distance difference: 0.05757831337962977
+Distance difference: 0.05757834914437855
+Distance difference: 0.05757838203436009
+Distance difference: 0.057578412098713366
+Distance difference: 0.05757843932199898
+Distance difference: 0.05757846406241416
+Distance difference: 0.05757848667013924
+Distance difference: 0.057578507112549804
+Distance difference: 0.05757852566872993
+Distance difference: 0.05757854262398432
+Distance difference: 0.05757855789168343
+Distance difference: 0.05757857170472439
+Distance difference: 0.05757858430853312
+Distance difference: 0.05757859558169086
+Distance difference: 0.05757860572614059
+Distance difference: 0.057578614959673
+Distance difference: 0.05757862313604554
+Distance difference: 0.05757863043465319
+Distance difference: 0.05757863705280953
+Distance difference: 0.057578642825575864
+Distance difference: 0.05757864791523452
+Distance difference: 0.057578652503437425
+Distance difference: 0.08288496506564814
+Distance difference: 0.08669083385262491
+Distance difference: 0.08705200529661966
+Distance difference: 0.08706802915108029
+Distance difference: 0.08707961068746577
+Distance difference: 0.0870875219672658
+Distance difference: 0.08709240644082283
+Distance difference: 0.087094960321225
+Distance difference: 0.08709599140099163
+Distance difference: 0.08709606301586413
+Distance difference: 0.08709554566638496
+Distance difference: 0.08709470198676873
+Distance difference: 0.08709369464353722
+Distance difference: 0.08709263990398873
+Distance difference: 0.08709160063549594
+Distance difference: 0.08709061973176932
+Distance difference: 0.08708972427323473
+Distance difference: 0.087088919159769
+Distance difference: 0.08708820923499262
+Distance difference: 0.08708758854279522
+Distance difference: 0.08708705445532308
+Distance difference: 0.08708659592994898
+Distance difference: 0.08708620726204805
+Distance difference: 0.08708587969394098
+Distance difference: 0.08708560424184782
+Distance difference: 0.08708537477937957
+Distance difference: 0.0870851863357726
+Distance difference: 0.08708503148486084
+Distance difference: 0.08708490423121569
+Distance difference: 0.08708480160676593
+Distance difference: 0.08708472026571917
+Distance difference: 0.08708465534660123
+Distance difference: 0.08708460376774649
+Distance difference: 0.08708456401970004
+Distance difference: 0.08708453373963206
+Distance difference: 0.08708451191558227
+Distance difference: 0.08708449734707756
+Distance difference: 0.0870844877554972
+Distance difference: 0.08708448115806515
+Distance difference: 0.08708447821278528
+Distance difference: 0.08708447860752948
+Distance difference: 0.08708448061884372
+Distance difference: 0.08708448334307622
+Distance difference: 0.0870844881281735
+Distance difference: 0.08708449239629548
+Distance difference: 0.0870844983007881
+Distance difference: 0.08708450456602175
+Distance difference: 0.08708450986227224
+Distance difference: 0.08708451630347926
+Distance difference: 0.08708452264431678
+Distance difference: 0.08708452773190523
+Distance difference: 0.08708453369924266
+Distance difference: 0.08708453925559148
+Distance difference: 0.08708454367046581
+Distance difference: 0.08708454879373133
+Distance difference: 0.08708455353427595
+Distance difference: 0.08708455798771998
+Distance difference: 0.08708456209107622
+Distance difference: 0.08708456589080563
+Distance difference: 0.08708456956173871
+Distance difference: 0.08708457275636311
+Distance difference: 0.08708457497659662
+Distance difference: 0.08708457802639911
+Distance difference: 0.08708458085513068
+Distance difference: 0.0870845834073544
+Distance difference: 0.08708458573370816
+Distance difference: 0.0870845880105825
+Distance difference: 0.08708458989572826
+Distance difference: 0.08708459088901614
+Distance difference: 0.08708459279343668
+Distance difference: 0.08708459455654734
+Distance difference: 0.08708459610519119
+Distance difference: 0.0870845976154867
+Distance difference: 0.08708459875963748
+Distance difference: 0.08708460001602891
+Distance difference: 0.08708460094725398
+Distance difference: 0.08708460207578103
+Distance difference: 0.08708460284359723
+Distance difference: 0.0870846038434931
+Distance difference: 0.08708460449973547
+Distance difference: 0.08708460535092208
+Distance difference: 0.08708460591786846
+Distance difference: 0.0870846066925736
+Distance difference: 0.08708460719834826
+Distance difference: 0.08708460791981179
+Distance difference: 0.08708460863548687
+Distance difference: 0.08708460905863537
+Distance difference: 0.08708460896091369
+Distance difference: 0.08708460888248296
+Distance difference: 0.08708460923219427
+Distance difference: 0.08708461021708153
+Distance difference: 0.08708461123928496
+Distance difference: 0.08708461213177969
+Distance difference: 0.08708461264746241
+  [ASYNC] Inference: 113320.7ms
+Distance difference: 0.08708461333130511
+[Step 397] Latent Norm: 3.1056 | Action Age: 114300.3ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.009336264984911854
+  [ASYNC] Inference: 373.4ms
+Link 5, joint 17 force: 0.09
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.05
+[Grasped] Link 5: joint 17 = 5.86, joint 12 = 4.42
+Grasp successful!
+Distance difference: 0.009336264984911854
+[Step 398] Latent Norm: 3.3869 | Action Age: 41534.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.00535787428454375
+  [ASYNC] Inference: 767.6ms
+Link 5, joint 17 force: 0.10
+Link 5, joint 17 force: 0.78
+Link 5, joint 17 force: 0.09
+Link 5, joint 17 force: 0.02
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.08
+[Grasped] Link 5: joint 17 = 3.89, joint 12 = 10.78
+Grasp successful!
+Distance difference: 0.00535787428454375
+[Step 399] Latent Norm: 3.1056 | Action Age: 42584.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008137724058431828
+Link 5, joint 12 force: 2.79
+Link 5, joint 12 force: 0.61
+Link 5, joint 17 force: 0.61
+Link 5, joint 12 force: 0.75
+[Grasped] Link 5: joint 17 = 12.58, joint 12 = 3.26
+Grasp successful!
+Distance difference: 0.008137724058431828
+Distance difference: 0.11494012477607739
+Distance difference: 0.11523336984789503
+  [ASYNC] Inference: 1244.3ms
+[Step 402] Latent Norm: 3.1056 | Action Age: 2207.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0035162438591207906
+  [ASYNC] Inference: 302.4ms
+Link 5, joint 12 force: 1.52
+Link 5, joint 12 force: 2.73
+Link 5, joint 12 force: 0.16
+Link 5, joint 17 force: 0.11
+Link 5, joint 12 force: 1.03
+[Grasped] Link 5: joint 17 = 5.88, joint 12 = 11.70
+Grasp successful!
+Distance difference: 0.0035162438591207906
+[Step 403] Latent Norm: 3.2075 | Action Age: 38502.5ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.00767485952089348
+Link 5, joint 12 force: 0.62
+Link 5, joint 12 force: 2.71
+Link 5, joint 12 force: 4.24
+[Grasped] Link 5: joint 17 = 3.96, joint 12 = 12.60
+Grasp successful!
+Distance difference: 0.00767485952089348
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.00767486070274825
+  [ASYNC] Inference: 973.4ms
+Link 5, joint 12 force: 0.62
+Link 5, joint 12 force: 2.71
+Link 5, joint 12 force: 4.24
+[Grasped] Link 5: joint 17 = 3.96, joint 12 = 12.60
+Grasp successful!
+Distance difference: 0.00767486070274825
+[Step 405] Latent Norm: 3.1056 | Action Age: 41132.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008321677736104153
+Link 5, joint 12 force: 2.87
+Link 5, joint 12 force: 0.47
+Link 5, joint 17 force: 0.04
+Link 5, joint 12 force: 0.10
+Link 5, joint 17 force: 11.50
+Link 5, joint 12 force: 1.21
+[Grasped] Link 5: joint 17 = 13.61, joint 12 = 15.09
+Grasp successful!
+Distance difference: 0.008321677736104153
+Distance difference: 0.060564191733179354
+Distance difference: 0.06104068076967697
+  [ASYNC] Inference: 1689.6ms
+[Step 408] Latent Norm: 3.1056 | Action Age: 2460.3ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0029459347504667568
+  [ASYNC] Inference: 452.4ms
+Link 5, joint 17 force: 0.05
+Link 5, joint 17 force: 1.01
+Link 5, joint 17 force: 2.25
+Link 5, joint 17 force: 2.43
+[Grasped] Link 5: joint 17 = 8.98, joint 12 = 9.57
+Grasp successful!
+Distance difference: 0.0029459347504667568
+[Step 409] Latent Norm: 3.2091 | Action Age: 40183.8ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007272610330186497
+Link 5, joint 12 force: 2.00
+Link 5, joint 12 force: 3.95
+Link 5, joint 12 force: 5.49
+[Grasped] Link 5: joint 17 = 6.19, joint 12 = 4.92
+Grasp successful!
+Distance difference: 0.007272610330186497
+Distance difference: 0.1264624290512511
+Distance difference: 0.13010952249728397
+  [ASYNC] Inference: 1028.6ms
+[Step 412] Latent Norm: 3.1056 | Action Age: 1976.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.00791248090147005
+  [ASYNC] Inference: 287.3ms
+Link 5, joint 12 force: 3.17
+Link 5, joint 12 force: 3.78
+Link 5, joint 12 force: 0.25
+[Grasped] Link 5: joint 17 = 3.84, joint 12 = 6.70
+Grasp successful!
+Distance difference: 0.00791248090147005
+[Step 413] Latent Norm: 3.3740 | Action Age: 37641.6ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.009558464997092007
+Link 5, joint 12 force: 0.82
+Link 5, joint 12 force: 3.20
+Link 5, joint 17 force: 2.41
+Link 5, joint 12 force: 1.96
+[Grasped] Link 5: joint 17 = 9.51, joint 12 = 13.75
+Grasp successful!
+Distance difference: 0.009558464997092007
+Distance difference: 0.13306135256698337
+Distance difference: 0.13463977372417155
+Distance difference: 0.1349491843017631
+Distance difference: 0.1349398250763798  [ASYNC] Inference: 1600.8ms
+
+  [ASYNC] Inference: 402.3ms
+[Step 418] Latent Norm: 3.3607 | Action Age: 1817.1ms
+Distance difference: 0.010185750198044949
+  [ASYNC] Inference: 361.7msCube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.0050495818636329135
+
+Link 5, joint 12 force: 2.55
+Link 5, joint 12 force: 1.48
+Link 5, joint 12 force: 0.27
+Link 5, joint 17 force: 0.13
+Link 5, joint 17 force: 13.73
+Link 5, joint 12 force: 0.02
+[Grasped] Link 5: joint 17 = 8.92, joint 12 = 4.60
+Grasp successful!
+Distance difference: 0.0050495818636329135
+[Step 420] Latent Norm: 3.3633 | Action Age: 40395.9ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.008090317005857994
+  [ASYNC] Inference: 850.7ms
+Link 5, joint 12 force: 1.23
+Link 5, joint 12 force: 3.53
+Link 5, joint 12 force: 4.95
+Link 5, joint 12 force: 3.79
+Link 5, joint 12 force: 7.01
+Link 5, joint 12 force: 10.34
+[Grasped] Link 5: joint 17 = 7.67, joint 12 = 7.72
+Grasp successful!
+Distance difference: 0.008090317005857994
+[Step 421] Latent Norm: 3.1056 | Action Age: 40013.4ms
+Distance difference: 0.014074259249304623
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0017990870617430987
+  [ASYNC] Inference: 889.4ms
+Link 5, joint 17 force: 0.38
+[Grasped] Link 5: joint 17 = 4.50, joint 12 = 5.43
+Grasp successful!
+Distance difference: 0.0017990870617430987
+[Step 423] Latent Norm: 3.6969 | Action Age: 39478.8ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.002586428583247597
+Link 5, joint 12 force: 2.38
+Link 5, joint 12 force: 2.64
+Link 5, joint 12 force: 0.37
+Link 5, joint 12 force: 0.22
+Link 5, joint 12 force: 0.00
+[Grasped] Link 5: joint 17 = 4.90, joint 12 = 8.28
+Grasp successful!
+Distance difference: 0.002586428583247597
+Distance difference: 0.1399884912832036
+Distance difference: 0.13396992899489127
+  [ASYNC] Inference: 1506.0ms
+Distance difference: 0.1336367544059126
+[Step 427] Latent Norm: 3.1056 | Action Age: 2459.9ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0045581669098182865
+  [ASYNC] Inference: 289.8ms
+Link 5, joint 12 force: 1.54
+Link 5, joint 12 force: 3.80
+Link 5, joint 12 force: 5.32
+Link 5, joint 12 force: 5.31
+Link 5, joint 12 force: 8.85
+Link 5, joint 12 force: 5.66
+Link 5, joint 12 force: 1.36
+Link 5, joint 17 force: 0.04
+[Grasped] Link 5: joint 17 = 11.00, joint 12 = 15.82
+Grasp successful!
+Distance difference: 0.0045581669098182865
+[Step 428] Latent Norm: 3.6023 | Action Age: 41407.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007414716196284391
+  [ASYNC] Inference: 822.5ms
+Link 5, joint 12 force: 2.82
+Link 5, joint 12 force: 2.77
+Link 5, joint 12 force: 2.11
+Link 5, joint 12 force: 2.83
+Link 5, joint 17 force: 0.08
+Link 5, joint 12 force: 7.52
+[Grasped] Link 5: joint 17 = 12.20, joint 12 = 14.52
+Grasp successful!
+Distance difference: 0.007414716196284391
+[Step 429] Latent Norm: 3.1056 | Action Age: 37991.3ms
+Distance difference: 0.014713392998463321
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.003065544306630526
+  [ASYNC] Inference: 809.1ms
+Link 5, joint 17 force: 0.05
+Link 5, joint 17 force: 0.30
+Link 5, joint 17 force: 1.75
+Link 5, joint 17 force: 2.03
+[Grasped] Link 5: joint 17 = 7.30, joint 12 = 7.20
+Grasp successful!
+Distance difference: 0.003065544306630526
+[Step 431] Latent Norm: 3.6944 | Action Age: 37909.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0021876878743668977
+Link 5, joint 12 force: 2.61
+Link 5, joint 12 force: 2.33
+Link 5, joint 12 force: 0.17
+Link 5, joint 17 force: 2.31
+Link 5, joint 12 force: 2.35
+[Grasped] Link 5: joint 17 = 7.79, joint 12 = 15.44
+Grasp successful!
+Distance difference: 0.0021876878743668977
+Distance difference: 0.12142081049235867
+Distance difference: 0.12076634930369784
+  [ASYNC] Inference: 1378.4ms
+Distance difference: 0.1207523813330891
+[Step 435] Latent Norm: 3.1056 | Action Age: 2230.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.005904580433886244
+  [ASYNC] Inference: 359.9ms
+Link 5, joint 12 force: 3.33
+Link 5, joint 12 force: 1.00
+Link 5, joint 17 force: 1.46
+Link 5, joint 12 force: 0.47
+[Grasped] Link 5: joint 17 = 11.22, joint 12 = 12.47
+Grasp successful!
+Distance difference: 0.005904580433886244
+[Step 436] Latent Norm: 3.1804 | Action Age: 42395.3ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.004573733105891392
+  [ASYNC] Inference: 786.7ms
+Link 5, joint 17 force: 0.07
+Link 5, joint 17 force: 0.16
+Link 5, joint 17 force: 0.09
+Link 5, joint 17 force: 0.05
+Link 5, joint 17 force: 0.02
+Link 5, joint 17 force: 0.12
+Link 5, joint 17 force: 0.10
+Link 5, joint 12 force: 0.53
+[Grasped] Link 5: joint 17 = 6.40, joint 12 = 11.29
+Grasp successful!
+Distance difference: 0.004573733105891392
+[Step 437] Latent Norm: 3.1056 | Action Age: 39077.0ms
+Distance difference: 0.010230051348110392
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0021408488098677613
+  [ASYNC] Inference: 913.9ms
+Link 5, joint 12 force: 2.54
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 7.55
+[Grasped] Link 5: joint 17 = 5.46, joint 12 = 19.97
+Grasp successful!
+Distance difference: 0.0021408488098677613
+[Step 439] Latent Norm: 3.6197 | Action Age: 38647.7ms
+Distance difference: 0.014967250819407016
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.00314325444073588
+  [ASYNC] Inference: 863.5ms
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.27
+Link 5, joint 17 force: 1.95
+Link 5, joint 17 force: 2.53
+[Grasped] Link 5: joint 17 = 7.97, joint 12 = 7.16
+Grasp successful!
+Distance difference: 0.00314325444073588
+[Step 441] Latent Norm: 3.6938 | Action Age: 40680.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.003968585718785999
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.11
+Link 5, joint 17 force: 0.03
+Link 5, joint 17 force: 0.01
+Link 5, joint 17 force: 0.04
+Link 5, joint 17 force: 0.03
+[Grasped] Link 5: joint 17 = 5.56, joint 12 = 10.30
+Grasp successful!
+Distance difference: 0.003968585718785999
+Distance difference: 0.0897405020769925
+Distance difference: 0.08588747042813112
+  [ASYNC] Inference: 1134.9ms
+[Step 444] Latent Norm: 3.1056 | Action Age: 2161.4ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0021243248017297697
+  [ASYNC] Inference: 444.3ms
+Link 5, joint 12 force: 3.04
+Link 5, joint 12 force: 4.16
+Link 5, joint 17 force: 2.49
+Link 5, joint 12 force: 12.39
+[Grasped] Link 5: joint 17 = 7.31, joint 12 = 24.17
+Grasp successful!
+Distance difference: 0.0021243248017297697
+[Step 445] Latent Norm: 3.5536 | Action Age: 49363.9ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007405961474170009
+Link 5, joint 12 force: 2.80
+Link 5, joint 12 force: 2.75
+Link 5, joint 17 force: 1.96
+Link 5, joint 17 force: 15.33
+Link 5, joint 12 force: 1.43
+[Grasped] Link 5: joint 17 = 25.40, joint 12 = 10.20
+Grasp successful!
+Distance difference: 0.007405961474170009
+Distance difference: 0.06048442749956245
+Distance difference: 0.06097728185200362
+  [ASYNC] Inference: 1395.7ms
+[Step 448] Latent Norm: 3.1056 | Action Age: 2444.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0033076093423162808
+  [ASYNC] Inference: 458.2ms
+Link 5, joint 17 force: 0.02
+Link 5, joint 17 force: 1.16
+Link 5, joint 17 force: 2.46
+Link 5, joint 17 force: 2.36
+Link 5, joint 17 force: 1.08
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 1.84
+[Grasped] Link 5: joint 17 = 10.15, joint 12 = 7.31
+Grasp successful!
+Distance difference: 0.0033076093423162808
+[Step 449] Latent Norm: 3.2006 | Action Age: 45457.6ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.009602860724135031
+Link 5, joint 12 force: 2.80
+Link 5, joint 12 force: 3.82
+Link 5, joint 12 force: 4.40
+Link 5, joint 17 force: 0.15
+Link 5, joint 12 force: 5.06
+[Grasped] Link 5: joint 17 = 9.57, joint 12 = 20.68
+Grasp successful!
+Distance difference: 0.009602860724135031
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.009602863233017308
+  [ASYNC] Inference: 839.8ms
+Link 5, joint 12 force: 2.80
+Link 5, joint 12 force: 3.82
+Link 5, joint 12 force: 4.40
+Link 5, joint 17 force: 0.15
+Link 5, joint 12 force: 5.06
+[Grasped] Link 5: joint 17 = 9.57, joint 12 = 20.68
+Grasp successful!
+Distance difference: 0.009602863233017308
+[Step 451] Latent Norm: 3.1056 | Action Age: 40781.7ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0081832494540477
+Link 5, joint 12 force: 1.11
+Link 5, joint 12 force: 3.47
+Link 5, joint 12 force: 4.87
+Link 5, joint 12 force: 1.96
+Link 5, joint 12 force: 4.67
+[Grasped] Link 5: joint 17 = 6.02, joint 12 = 9.52
+Grasp successful!
+Distance difference: 0.0081832494540477
+Distance difference: 0.10944792016292518
+Distance difference: 0.11602630425291952
+  [ASYNC] Inference: 1141.6ms
+[Step 454] Latent Norm: 3.1056 | Action Age: 2264.2ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008192339131926385
+  [ASYNC] Inference: 287.7ms
+Link 5, joint 12 force: 3.17
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 8.09
+[Grasped] Link 5: joint 17 = 5.80, joint 12 = 23.39
+Grasp successful!
+Distance difference: 0.008192339131926385
+[Step 455] Latent Norm: 3.7266 | Action Age: 40784.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007673699293013403
+Link 5, joint 12 force: 2.95
+Link 5, joint 12 force: 3.11
+Link 5, joint 17 force: 0.10
+Link 5, joint 12 force: 0.02
+Link 5, joint 17 force: 11.46
+Link 5, joint 12 force: 1.67
+[Grasped] Link 5: joint 17 = 13.75, joint 12 = 10.18
+Grasp successful!
+Distance difference: 0.007673699293013403
+Distance difference: 0.060502348140056984
+Distance difference: 0.06098481549129748
+  [ASYNC] Inference: 1357.2ms
+Distance difference: 0.06099385593605648
+[Step 459] Latent Norm: 3.1056 | Action Age: 2208.2ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.003225387367315589
+  [ASYNC] Inference: 296.4ms
+Link 5, joint 17 force: 1.04
+Link 5, joint 17 force: 2.87
+Link 5, joint 17 force: 3.11
+Link 5, joint 17 force: 2.93
+Link 5, joint 17 force: 2.00
+Link 5, joint 12 force: 1.90
+[Grasped] Link 5: joint 17 = 12.17, joint 12 = 8.31
+Grasp successful!
+Distance difference: 0.003225387367315589
+[Step 460] Latent Norm: 3.2039 | Action Age: 41643.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.00788614927033858
+  [ASYNC] Inference: 796.2ms
+Link 5, joint 12 force: 2.43
+Link 5, joint 12 force: 2.97
+Link 5, joint 17 force: 0.14
+Link 5, joint 12 force: 1.16
+[Grasped] Link 5: joint 17 = 8.87, joint 12 = 9.19
+Grasp successful!
+Distance difference: 0.00788614927033858
+[Step 461] Latent Norm: 3.1056 | Action Age: 40463.3ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008442107650336143
+Link 5, joint 12 force: 0.96
+Link 5, joint 12 force: 2.87
+Link 5, joint 12 force: 4.32
+Link 5, joint 17 force: 0.04
+Link 5, joint 12 force: 8.80
+Link 5, joint 17 force: 0.17
+Link 5, joint 12 force: 13.41
+Link 5, joint 12 force: 24.20
+Link 5, joint 17 force: 0.54
+Link 5, joint 12 force: 18.53
+[Grasped] Link 5: joint 17 = 24.57, joint 12 = 34.51
+Grasp successful!
+Distance difference: 0.008442107650336143
+Distance difference: 0.0664240407709724
+Distance difference: 0.05802842541868714
+  [ASYNC] Inference: 1219.6ms
+[Step 464] Latent Norm: 3.1056 | Action Age: 1944.9ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0008628454776695012
+  [ASYNC] Inference: 217.7ms
+Link 5, joint 17 force: 0.05
+Link 5, joint 17 force: 0.51
+Link 5, joint 17 force: 2.04
+[Grasped] Link 5: joint 17 = 5.20, joint 12 = 6.06
+Grasp successful!
+Distance difference: 0.0008628454776695012
+[Step 465] Latent Norm: 3.7422 | Action Age: 40033.3ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.007468173184492223
+Link 5, joint 12 force: 0.95
+Link 5, joint 12 force: 3.55
+Link 5, joint 12 force: 5.11
+Link 5, joint 12 force: 4.47
+[Grasped] Link 5: joint 17 = 3.29, joint 12 = 7.92
+Grasp successful!
+Distance difference: 0.007468173184492223
+Distance difference: 0.0558744364011595
+Distance difference: 0.06012055701121233
+  [ASYNC] Inference: 1385.7msDistance difference: 0.06047014663556881
+
+[Step 469] Latent Norm: 3.1056 | Action Age: 2113.0ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.005825254215307222
+  [ASYNC] Inference: 288.5ms
+Link 5, joint 17 force: 0.13
+Link 5, joint 17 force: 1.10
+[Grasped] Link 5: joint 17 = 3.84, joint 12 = 5.19
+Grasp successful!
+Distance difference: 0.005825254215307222
+[Step 470] Latent Norm: 3.7586 | Action Age: 39711.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0026759564281577056
+  [ASYNC] Inference: 848.2ms
+Link 5, joint 12 force: 2.49
+Link 5, joint 12 force: 3.21
+Link 5, joint 12 force: 0.44
+[Grasped] Link 5: joint 17 = 4.66, joint 12 = 3.36
+Grasp successful!
+Distance difference: 0.0026759564281577056
+[Step 471] Latent Norm: 3.1056 | Action Age: 36882.6ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008146582990728046
+Link 5, joint 12 force: 1.26
+Link 5, joint 12 force: 3.27
+Link 5, joint 12 force: 4.70
+Link 5, joint 17 force: 0.05
+Link 5, joint 12 force: 10.29
+[Grasped] Link 5: joint 17 = 10.41, joint 12 = 24.07
+Grasp successful!
+Distance difference: 0.008146582990728046
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008146584704108003
+  [ASYNC] Inference: 878.5ms
+Link 5, joint 12 force: 1.26
+Link 5, joint 12 force: 3.27
+Link 5, joint 12 force: 4.70
+Link 5, joint 17 force: 0.05
+Link 5, joint 12 force: 10.29
+[Grasped] Link 5: joint 17 = 10.41, joint 12 = 24.07
+Grasp successful!
+Distance difference: 0.008146584704108003
+[Step 473] Latent Norm: 3.1056 | Action Age: 39508.2ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.006918489703550597
+Link 5, joint 12 force: 2.27
+Link 5, joint 12 force: 4.22
+Link 5, joint 12 force: 5.81
+Link 5, joint 12 force: 3.88
+Link 5, joint 12 force: 6.35
+[Grasped] Link 5: joint 17 = 5.20, joint 12 = 12.56
+Grasp successful!
+Distance difference: 0.006918489703550597
+Distance difference: 0.12666337146703682
+Distance difference: 0.13034857019888962
+  [ASYNC] Inference: 1323.5ms
+  [ASYNC] Inference: 9.8ms
+[Step 476] Latent Norm: 3.3754 | Action Age: 817.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.008619914703473314
+Link 5, joint 12 force: 1.72
+Link 5, joint 12 force: 3.15
+Link 5, joint 12 force: 0.09
+Link 5, joint 12 force: 0.05
+Link 5, joint 17 force: 2.77
+Link 5, joint 12 force: 3.73
+[Grasped] Link 5: joint 17 = 6.60, joint 12 = 14.92
+Grasp successful!
+Distance difference: 0.008619914703473314
+Distance difference: 0.09135007003241653
+Distance difference: 0.08193169470603942
+Distance difference: 0.08116237290007498
+  [ASYNC] Inference: 1265.8ms
+[Step 480] Latent Norm: 3.5505 | Action Age: 2164.6ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.002780175689195438
+  [ASYNC] Inference: 362.6ms
+Link 5, joint 17 force: 0.06
+Link 5, joint 17 force: 0.51
+[Grasped] Link 5: joint 17 = 3.86, joint 12 = 5.59
+Grasp successful!
+Distance difference: 0.002780175689195438
+[Step 481] Latent Norm: 3.5985 | Action Age: 42468.9ms
+Distance difference: 0.013133500875206023
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0020359345560356673
+  [ASYNC] Inference: 933.2ms
+Link 5, joint 17 force: 0.51
+[Grasped] Link 5: joint 17 = 4.62, joint 12 = 5.05
+Grasp successful!
+Distance difference: 0.0020359345560356673
+[Step 483] Latent Norm: 3.6995 | Action Age: 44157.3ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0026968361760181195
+Link 5, joint 17 force: 0.17
+Link 5, joint 17 force: 2.05
+Link 5, joint 17 force: 2.30
+Link 5, joint 17 force: 1.09
+Link 5, joint 17 force: 0.14
+[Grasped] Link 5: joint 17 = 11.09, joint 12 = 7.51
+Grasp successful!
+Distance difference: 0.0026968361760181195
+Distance difference: 0.06328526823621955
+Distance difference: 0.06193688780773021
+  [ASYNC] Inference: 1363.4msDistance difference: 0.061816232491900394
+
+[Step 487] Latent Norm: 3.1056 | Action Age: 2009.1ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.004923938807186719
+  [ASYNC] Inference: 218.8ms
+Link 5, joint 12 force: 2.99
+Link 5, joint 12 force: 3.08
+Link 5, joint 12 force: 0.07
+Link 5, joint 12 force: 0.16
+Link 5, joint 17 force: 0.08
+Link 5, joint 12 force: 0.20
+Link 5, joint 17 force: 13.26
+Link 5, joint 12 force: 1.02
+[Grasped] Link 5: joint 17 = 23.72, joint 12 = 6.03
+Grasp successful!
+Distance difference: 0.004923938807186719
+[Step 488] Latent Norm: 3.1621 | Action Age: 41054.6ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.009038726326934966
+  [ASYNC] Inference: 837.9ms
+Link 5, joint 12 force: 3.14
+Link 5, joint 12 force: 4.27
+Link 5, joint 12 force: 4.99
+Link 5, joint 17 force: 0.14
+Link 5, joint 12 force: 6.80
+Link 5, joint 17 force: 0.23
+Link 5, joint 12 force: 12.85
+Link 5, joint 17 force: 0.58
+Link 5, joint 12 force: 13.74
+Link 5, joint 17 force: 0.72
+Link 5, joint 12 force: 16.84
+Link 5, joint 17 force: 0.80
+Link 5, joint 17 force: 0.45
+Link 5, joint 17 force: 0.07
+Link 5, joint 12 force: 2.39
+Link 5, joint 12 force: 0.82
+Link 5, joint 12 force: 0.77
+Link 5, joint 12 force: 1.01
+Link 5, joint 17 force: 0.01
+Link 5, joint 12 force: 0.26
+Link 5, joint 17 force: 0.11
+Link 5, joint 12 force: 6.57
+Link 5, joint 12 force: 3.83
+[Grasped] Link 5: joint 17 = 13.02, joint 12 = 16.86
+Grasp successful!
+Distance difference: 0.009038726326934966
+[Step 489] Latent Norm: 3.1056 | Action Age: 44122.0ms
+Distance difference: 0.013335349185517405
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.002301085984431167
+  [ASYNC] Inference: 386.3ms
+Link 5, joint 17 force: 0.54
+Link 5, joint 17 force: 2.33
+[Grasped] Link 5: joint 17 = 4.71, joint 12 = 5.75
+Grasp successful!
+Distance difference: 0.002301085984431167
+[Step 491] Latent Norm: 3.6985 | Action Age: 38060.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007670941584449608
+Link 5, joint 12 force: 2.77
+Link 5, joint 12 force: 3.01
+Link 5, joint 17 force: 0.11
+Link 5, joint 12 force: 0.76
+[Grasped] Link 5: joint 17 = 10.34, joint 12 = 8.43
+Grasp successful!
+Distance difference: 0.007670941584449608
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007670938143601204
+  [ASYNC] Inference: 801.8ms
+Link 5, joint 12 force: 2.77
+Link 5, joint 12 force: 3.01
+Link 5, joint 17 force: 0.14
+Link 5, joint 12 force: 0.89
+[Grasped] Link 5: joint 17 = 10.68, joint 12 = 8.48
+Grasp successful!
+Distance difference: 0.007670938143601204
+[Step 493] Latent Norm: 3.1056 | Action Age: 41120.3ms
+Distance difference: 0.013672314285646251
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.00259716898417718
+  [ASYNC] Inference: 8020.9ms
+Link 5, joint 17 force: 0.16
+Link 5, joint 17 force: 1.65
+Link 5, joint 17 force: 2.31
+[Grasped] Link 5: joint 17 = 6.69, joint 12 = 7.16
+Grasp successful!
+Distance difference: 0.00259716898417718
+[Step 495] Latent Norm: 3.6973 | Action Age: 40084.3ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008814046971319859
+Link 5, joint 12 force: 2.84
+Link 5, joint 12 force: 1.22
+Link 5, joint 17 force: 0.07
+Link 5, joint 12 force: 1.19
+Link 5, joint 17 force: 11.29
+Link 5, joint 12 force: 1.27
+[Grasped] Link 5: joint 17 = 13.54, joint 12 = 10.97
+Grasp successful!
+Distance difference: 0.008814046971319859
+Distance difference: 0.11492671801575295
+Distance difference: 0.11525892663752942
+  [ASYNC] Inference: 1307.9msDistance difference: 0.11528277879837608
+
+[Step 499] Latent Norm: 3.1056 | Action Age: 2019.8ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.005194552680247039
+  [ASYNC] Inference: 288.7ms
+Link 5, joint 12 force: 2.44
+Link 5, joint 12 force: 0.23
+[Grasped] Link 5: joint 17 = 5.47, joint 12 = 3.93
+Grasp successful!
+Distance difference: 0.005194552680247039
+[Step 500] Latent Norm: 3.2118 | Action Age: 40260.6ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.006043394275356424
+  [ASYNC] Inference: 818.0ms
+Link 5, joint 12 force: 4.05
+Link 5, joint 12 force: 5.98
+Link 5, joint 12 force: 4.90
+Link 5, joint 12 force: 8.01
+Link 5, joint 12 force: 11.47
+Link 5, joint 17 force: 0.10
+Link 5, joint 12 force: 6.94
+[Grasped] Link 5: joint 17 = 16.78, joint 12 = 14.44
+Grasp successful!
+Distance difference: 0.006043394275356424
+[Step 501] Latent Norm: 3.1056 | Action Age: 36547.7ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.00594990765506575
+Link 5, joint 12 force: 1.83
+Link 5, joint 12 force: 4.79
+Link 5, joint 12 force: 6.66
+Link 5, joint 12 force: 4.30
+Link 5, joint 17 force: 0.15
+Link 5, joint 12 force: 7.11
+[Grasped] Link 5: joint 17 = 8.72, joint 12 = 17.17
+Grasp successful!
+Distance difference: 0.00594990765506575
+Distance difference: 0.12728358698655476
+Distance difference: 0.13108485600299907
+  [ASYNC] Inference: 1431.3ms
+[Step 504] Latent Norm: 3.1056 | Action Age: 2314.9ms
+Distance difference: 0.010344554025578176
+  [ASYNC] Inference: 604.2msCube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0044181560462253746
+
+Link 5, joint 12 force: 1.24
+Link 5, joint 12 force: 2.97
+[Grasped] Link 5: joint 17 = 9.22, joint 12 = 3.22
+Grasp successful!
+Distance difference: 0.0044181560462253746
+[Step 506] Latent Norm: 3.3797 | Action Age: 40407.9ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0060246056991056975
+  [ASYNC] Inference: 823.1ms
+Link 5, joint 12 force: 0.09
+Link 5, joint 12 force: 4.51
+Link 5, joint 17 force: 0.03
+Link 5, joint 12 force: 8.82
+[Grasped] Link 5: joint 17 = 5.08, joint 12 = 23.55
+Grasp successful!
+Distance difference: 0.0060246056991056975
+[Step 507] Latent Norm: 3.1056 | Action Age: 37859.9ms
+Distance difference: 0.010382427845456482
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0047717245472123065
+  [ASYNC] Inference: 811.7ms
+Link 5, joint 17 force: 0.18
+Link 5, joint 17 force: 1.81
+Link 5, joint 17 force: 4.54
+Link 5, joint 17 force: 3.69
+[Grasped] Link 5: joint 17 = 9.70, joint 12 = 6.42
+Grasp successful!
+Distance difference: 0.0047717245472123065
+[Step 509] Latent Norm: 3.7060 | Action Age: 49311.6ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.005733506711460894
+Link 5, joint 12 force: 1.91
+Link 5, joint 12 force: 4.37
+Link 5, joint 12 force: 6.35
+Link 5, joint 12 force: 4.56
+Link 5, joint 12 force: 1.26
+Link 5, joint 17 force: 0.15
+Link 5, joint 12 force: 2.27
+[Grasped] Link 5: joint 17 = 7.26, joint 12 = 13.78
+Grasp successful!
+Distance difference: 0.005733506711460894
+Distance difference: 0.059334057824956446
+Distance difference: 0.059712868980437935
+  [ASYNC] Inference: 1160.8ms
+[Step 512] Latent Norm: 3.1056 | Action Age: 2222.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.009053941729967782
+  [ASYNC] Inference: 298.6ms
+Link 5, joint 12 force: 2.68
+Link 5, joint 12 force: 1.02
+Link 5, joint 12 force: 0.22
+Link 5, joint 17 force: 0.98
+Link 5, joint 12 force: 3.13
+[Grasped] Link 5: joint 17 = 9.47, joint 12 = 13.20
+Grasp successful!
+Distance difference: 0.009053941729967782
+[Step 513] Latent Norm: 3.3115 | Action Age: 39191.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.009218779423559717
+Link 5, joint 12 force: 2.75
+Link 5, joint 12 force: 2.12
+Link 5, joint 17 force: 3.87
+Link 5, joint 12 force: 1.21
+[Grasped] Link 5: joint 17 = 10.20, joint 12 = 14.69
+Grasp successful!
+Distance difference: 0.009218779423559717
+Distance difference: 0.05916535022297619
+Distance difference: 0.052524590457974855
+  [ASYNC] Inference: 1560.7msDistance difference: 0.051920017108474985
+
+[Step 517] Latent Norm: 3.1056 | Action Age: 2195.9ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.005341022142685854
+  [ASYNC] Inference: 299.2ms
+Link 5, joint 12 force: 2.73
+Link 5, joint 12 force: 5.05
+Link 5, joint 12 force: 7.12
+Link 5, joint 12 force: 0.05
+Link 5, joint 17 force: 5.36
+Link 5, joint 12 force: 1.45
+[Grasped] Link 5: joint 17 = 7.21, joint 12 = 17.04
+Grasp successful!
+Distance difference: 0.005341022142685854
+[Step 518] Latent Norm: 3.5601 | Action Age: 39437.2ms
+Distance difference: 0.010904977089206212
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0041359009691831
+  [ASYNC] Inference: 856.5ms
+Link 5, joint 17 force: 0.21
+Link 5, joint 17 force: 1.93
+[Grasped] Link 5: joint 17 = 4.50, joint 12 = 4.61
+Grasp successful!
+Distance difference: 0.0041359009691831
+[Step 520] Latent Norm: 3.1056 | Action Age: 39852.1ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.006848716789314365
+  [ASYNC] Inference: 769.3ms
+Link 5, joint 12 force: 2.31
+Link 5, joint 12 force: 4.45
+Link 5, joint 12 force: 6.50
+Link 5, joint 17 force: 0.08
+Link 5, joint 12 force: 6.77
+[Grasped] Link 5: joint 17 = 7.01, joint 12 = 20.38
+Grasp successful!
+Distance difference: 0.006848716789314365
+[Step 521] Latent Norm: 3.1056 | Action Age: 39055.6ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.005962984338058195
+Link 5, joint 12 force: 1.10
+Link 5, joint 12 force: 4.50
+Link 5, joint 12 force: 6.44
+[Grasped] Link 5: joint 17 = 4.83, joint 12 = 6.16
+Grasp successful!
+Distance difference: 0.005962984338058195
+Distance difference: 0.05894938293544084
+Distance difference: 0.05928563959537834
+  [ASYNC] Inference: 1542.4ms
+Distance difference: 0.05929168199610772
+[Step 525] Latent Norm: 3.1056 | Action Age: 2266.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008573774968334696
+  [ASYNC] Inference: 288.5ms
+Link 5, joint 12 force: 2.58
+Link 5, joint 12 force: 0.71
+Link 5, joint 17 force: 0.19
+Link 5, joint 12 force: 0.05
+[Grasped] Link 5: joint 17 = 10.21, joint 12 = 11.96
+Grasp successful!
+Distance difference: 0.008573774968334696
+[Step 526] Latent Norm: 3.3103 | Action Age: 39895.0ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.0062335011826318044
+  [ASYNC] Inference: 803.9ms
+Link 5, joint 12 force: 1.75
+Link 5, joint 12 force: 4.17
+Link 5, joint 12 force: 5.99
+Link 5, joint 12 force: 2.57
+Link 5, joint 12 force: 5.50
+[Grasped] Link 5: joint 17 = 4.65, joint 12 = 10.74
+Grasp successful!
+Distance difference: 0.0062335011826318044
+[Step 527] Latent Norm: 3.1056 | Action Age: 39038.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0022119901248684377
+Link 5, joint 17 force: 1.07
+Link 5, joint 17 force: 3.19
+Link 5, joint 17 force: 4.31
+[Grasped] Link 5: joint 17 = 9.86, joint 12 = 9.17
+Grasp successful!
+Distance difference: 0.0022119901248684377
+Distance difference: 0.0858376891207713
+Distance difference: 0.08215156130068581
+  [ASYNC] Inference: 1077.1ms
+[Step 530] Latent Norm: 3.1056 | Action Age: 1793.3ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0013512541494751264
+  [ASYNC] Inference: 289.4ms
+Link 5, joint 12 force: 0.93
+Link 5, joint 12 force: 3.33
+Link 5, joint 12 force: 5.38
+Link 5, joint 12 force: 0.76
+[Grasped] Link 5: joint 17 = 4.30, joint 12 = 8.09
+Grasp successful!
+Distance difference: 0.0013512541494751264
+[Step 531] Latent Norm: 3.5621 | Action Age: 38545.8ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.006688507876295361
+Link 5, joint 12 force: 2.40
+Link 5, joint 12 force: 4.36
+Link 5, joint 12 force: 5.99
+Link 5, joint 12 force: 5.57
+Link 5, joint 12 force: 9.97
+Link 5, joint 12 force: 0.61
+Link 5, joint 12 force: 0.81
+[Grasped] Link 5: joint 17 = 4.69, joint 12 = 4.53
+Grasp successful!
+Distance difference: 0.006688507876295361
+Distance difference: 0.10905248883377286
+Distance difference: 0.11599266341142123
+  [ASYNC] Inference: 1315.0ms
+  [ASYNC] Inference: 4.9ms
+[Step 534] Latent Norm: 3.7316 | Action Age: 811.1ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0082924183222473
+Link 5, joint 12 force: 0.14
+Link 5, joint 12 force: 2.78
+Link 5, joint 12 force: 4.86
+Link 5, joint 12 force: 6.92
+Link 5, joint 17 force: 0.14
+Link 5, joint 12 force: 6.48
+Link 5, joint 17 force: 0.50
+Link 5, joint 12 force: 16.62
+[Grasped] Link 5: joint 17 = 15.35, joint 12 = 34.17
+Grasp successful!
+Distance difference: 0.0082924183222473
+Distance difference: 0.06809982182756101
+Distance difference: 0.05978638737355041
+Distance difference: 0.05903072508209214
+  [ASYNC] Inference: 1324.4ms
+[Step 538] Latent Norm: 3.6884 | Action Age: 2220.8ms
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.001799758728386336
+  [ASYNC] Inference: 365.1ms
+Link 5, joint 12 force: 3.80
+[Grasped] Link 5: joint 17 = 4.82, joint 12 = 9.33
+Grasp successful!
+Distance difference: 0.001799758728386336
+[Step 539] Latent Norm: 3.7478 | Action Age: 38937.6ms
+Distance difference: 0.012951159984214967
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.0019608446924207594
+  [ASYNC] Inference: 1064.5ms
+Link 5, joint 12 force: 3.94
+[Grasped] Link 5: joint 17 = 4.55, joint 12 = 9.41
+Grasp successful!
+Distance difference: 0.0019608446924207594
+[Step 541] Latent Norm: 3.7014 | Action Age: 48910.5ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0019288098380889826
+Link 5, joint 17 force: 0.11
+Link 5, joint 17 force: 1.61
+Link 5, joint 17 force: 2.27
+[Grasped] Link 5: joint 17 = 5.68, joint 12 = 9.71
+Grasp successful!
+Distance difference: 0.0019288098380889826
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.09999999999999998)) picked successfully, distance 0.0019288086076616915
+  [ASYNC] Inference: 1783.5ms
+Link 5, joint 17 force: 0.11
+Link 5, joint 17 force: 1.61
+Link 5, joint 17 force: 2.27
+[Grasped] Link 5: joint 17 = 5.68, joint 12 = 9.71
+Grasp successful!
+Distance difference: 0.0019288086076616915
+[Step 543] Latent Norm: 3.1056 | Action Age: 45548.7ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008290746777132844
+Link 5, joint 12 force: 2.90
+Link 5, joint 12 force: 0.46
+Link 5, joint 17 force: 11.64
+Link 5, joint 12 force: 0.46
+[Grasped] Link 5: joint 17 = 10.38, joint 12 = 12.82
+Grasp successful!
+Distance difference: 0.008290746777132844
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.008290744731442602
+  [ASYNC] Inference: 968.9ms
+Link 5, joint 12 force: 2.90
+Link 5, joint 12 force: 0.46
+Link 5, joint 17 force: 0.13
+Link 5, joint 12 force: 0.90
+Link 5, joint 17 force: 12.26
+Link 5, joint 12 force: 2.77
+[Grasped] Link 5: joint 17 = 13.65, joint 12 = 14.66
+Grasp successful!
+Distance difference: 0.008290744731442602
+[Step 545] Latent Norm: 3.1056 | Action Age: 40451.8ms
+Distance difference: 0.01281204032731312
+Cube picked. (np.float64(0.4), np.float64(-0.09999999999999998)) picked successfully, distance 0.00205604166584965
+  [ASYNC] Inference: 1055.8ms
+Link 5, joint 12 force: 0.35
+[Grasped] Link 5: joint 17 = 4.96, joint 12 = 4.58
+Grasp successful!
+Distance difference: 0.00205604166584965
+[Step 547] Latent Norm: 3.7013 | Action Age: 39570.2ms
+Cube picked. (np.float64(0.4), np.float64(-0.3)) picked successfully, distance 0.00682232012379708
+Link 5, joint 12 force: 2.24
+Link 5, joint 12 force: 4.22
+Link 5, joint 12 force: 5.84
+Link 5, joint 12 force: 3.82
+Link 5, joint 12 force: 6.25
+Link 5, joint 12 force: 3.91
+Link 5, joint 12 force: 12.24
+Link 5, joint 17 force: 0.13
+Link 5, joint 12 force: 3.88
+Link 5, joint 17 force: 0.18
+Link 5, joint 12 force: 2.91
+Link 5, joint 17 force: 0.21
+Link 5, joint 12 force: 2.94
+Link 5, joint 12 force: 4.29
+Link 5, joint 17 force: 0.22
+Link 5, joint 12 force: 3.08
+Link 5, joint 17 force: 0.35
+Link 5, joint 12 force: 12.97
+Link 5, joint 17 force: 0.05
+Link 5, joint 12 force: 16.81
+Link 5, joint 12 force: 11.67
+Link 5, joint 12 force: 11.83
+Link 5, joint 12 force: 8.09
+Link 5, joint 17 force: 0.09
+Link 5, joint 12 force: 10.86
+[Grasped] Link 5: joint 17 = 9.70, joint 12 = 26.72
+Grasp successful!
+Distance difference: 0.00682232012379708
+Distance difference: 0.12671974573026726
+Distance difference: 0.13041559083919133
+  [ASYNC] Inference: 1255.5ms
+[Step 550] Latent Norm: 3.1056 | Action Age: 1973.6ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.0084483053633086
+  [ASYNC] Inference: 298.8ms
+Link 5, joint 12 force: 1.39
+Link 5, joint 12 force: 2.89
+Link 5, joint 12 force: 0.48
+[Grasped] Link 5: joint 17 = 3.00, joint 12 = 5.05
+Grasp successful!
+Distance difference: 0.0084483053633086
+[Step 551] Latent Norm: 3.3758 | Action Age: 38877.8ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.008599887353948432
+Link 5, joint 12 force: 0.69
+Link 5, joint 12 force: 2.71
+Link 5, joint 12 force: 4.18
+Link 5, joint 12 force: 5.13
+[Grasped] Link 5: joint 17 = 8.92, joint 12 = 14.06
+Grasp successful!
+Distance difference: 0.008599887353948432
+Distance difference: 0.05660925830776378
+Distance difference: 0.060882408818579856
+  [ASYNC] Inference: 1516.6ms
+[Step 554] Latent Norm: 3.1056 | Action Age: 2332.0ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(0.10000000000000003)) picked successfully, distance 0.006526880976246332
+  [ASYNC] Inference: 417.7ms
+Link 5, joint 12 force: 1.57
+Link 5, joint 12 force: 2.94
+Link 5, joint 12 force: 0.18
+[Grasped] Link 5: joint 17 = 3.04, joint 12 = 4.45
+Grasp successful!
+Distance difference: 0.006526880976246332
+[Step 555] Latent Norm: 3.3256 | Action Age: 38559.4ms
+Cube picked. (np.float64(0.6000000000000001), np.float64(-0.3)) picked successfully, distance 0.007889062685954825
+Link 5, joint 12 force: 2.44
+Link 5, joint 12 force: 2.98
+Link 5, joint 12 force: 2.50
+Link 5, joint 17 force: 0.17
+Link 5, joint 12 force: 1.45
+[Grasped] Link 5: joint 17 = 9.14, joint 12 = 9.86
+Grasp successful!
+Distance difference: 0.007889062685954825
+Distance difference: 0.13237684315589096
+Distance difference: 0.13107486952735675
+  [ASYNC] Inference: 1441.9ms
+Distance difference: 0.13098517548707472
+[Step 559] Latent Norm: 3.1056 | Action Age: 2153.3ms
+Cube picked. (np.float64(0.4), np.float64(0.10000000000000003)) picked successfully, distance 0.0035477044729846003
+  [ASYNC] Inference: 292.9ms
+AsyncVLA stopped
